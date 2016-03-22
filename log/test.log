@@ -1,0 +1,1245 @@
+2016/02/10 14:32:34 [asm_386.s:2287][I] http server Running on :8080
+2016/02/10 14:32:54 [asm_386.s:2287][I] http server Running on :8080
+2016/02/10 14:34:06 [D] I am start herer 
+2016/02/10 14:34:06 [asm_386.s:2287][I] http server Running on :8080
+2016/02/10 14:36:19 [router.go:828][D] | GET        | /login                                   | 2.596978ms       | match      | /login                                   | 
+2016/02/10 14:37:40 [D] I am start herer 
+2016/02/10 14:37:40 [asm_386.s:2287][I] http server Running on :8080
+2016/02/10 14:37:45 [asm_386.s:2287][I] http server Running on :8080
+2016/02/10 14:56:49 [asm_386.s:2287][I] http server Running on :8080
+2016/02/10 14:57:54 [router.go:828][D] | GET        | /                                        | 11.970446ms      | match      | /                                        | 
+2016/02/10 14:57:55 [router.go:828][D] | GET        | /ajax                                    | 111.956µs        | match      | /ajax                                    | 
+2016/02/10 14:58:40 [router.go:828][D] | GET        | /                                        | 8.201112ms       | match      | /                                        | 
+2016/02/10 14:58:40 [router.go:828][D] | GET        | /ajax                                    | 94.356µs         | match      | /ajax                                    | 
+2016/02/10 15:00:00 [router.go:828][D] | GET        | /login                                   | 5.981068ms       | match      | /login                                   | 
+2016/02/10 15:00:07 [router.go:828][D] | POST       | /login                                   | 1.168445ms       | match      | /login                                   | 
+2016/02/10 15:00:07 [router.go:828][D] | GET        | /home                                    | 6.435246ms       | match      | /home                                    | 
+2016/02/10 15:00:07 [router.go:828][D] | GET        | /ajax                                    | 129.555µs        | match      | /ajax                                    | 
+2016/02/10 15:05:32 [router.go:828][D] | GET        | /home                                    | 6.792134ms       | match      | /home                                    | 
+2016/02/10 15:05:33 [router.go:828][D] | GET        | /ajax                                    | 189.688µs        | match      | /ajax                                    | 
+2016/02/10 15:06:09 [router.go:828][D] | GET        | /logout                                  | 87.511µs         | match      | /logout                                  | 
+2016/02/10 15:06:09 [router.go:828][D] | GET        | /login                                   | 1.647556ms       | match      | /login                                   | 
+2016/02/10 15:06:12 [router.go:828][D] | GET        | /login                                   | 1.585467ms       | match      | /login                                   | 
+2016/02/10 15:06:17 [router.go:828][D] | GET        | /                                        | 8.024623ms       | match      | /                                        | 
+2016/02/10 15:06:18 [router.go:828][D] | GET        | /ajax                                    | 297.733µs        | match      | /ajax                                    | 
+2016/02/10 15:09:20 [router.go:828][D] | GET        | /                                        | 10.248579ms      | match      | /                                        | 
+2016/02/10 15:09:20 [router.go:828][D] | GET        | /ajax                                    | 141.289µs        | match      | /ajax                                    | 
+2016/02/10 15:09:55 [router.go:828][D] | GET        | /                                        | 15.938758ms      | match      | /                                        | 
+2016/02/10 15:09:55 [router.go:828][D] | GET        | /ajax                                    | 414.578µs        | match      | /ajax                                    | 
+2016/02/10 15:15:04 [router.go:828][D] | GET        | /                                        | 16.213513ms      | match      | /                                        | 
+2016/02/10 15:15:04 [router.go:828][D] | GET        | /ajax                                    | 185.289µs        | match      | /ajax                                    | 
+2016/02/10 15:15:20 [router.go:828][D] | GET        | /                                        | 11.492801ms      | match      | /                                        | 
+2016/02/10 15:15:21 [router.go:828][D] | GET        | /ajax                                    | 116.356µs        | match      | /ajax                                    | 
+2016/02/10 15:15:30 [router.go:828][D] | GET        | /                                        | 6.532045ms       | match      | /                                        | 
+2016/02/10 15:15:30 [router.go:828][D] | GET        | /ajax                                    | 182.845µs        | match      | /ajax                                    | 
+2016/02/10 15:18:43 [router.go:828][D] | GET        | /                                        | 10.005601ms      | match      | /                                        | 
+2016/02/10 15:18:44 [router.go:828][D] | GET        | /ajax                                    | 95.334µs         | match      | /ajax                                    | 
+2016/02/10 15:24:29 [router.go:828][D] | GET        | /                                        | 7.927334ms       | match      | /                                        | 
+2016/02/10 15:24:30 [router.go:828][D] | GET        | /ajax                                    | 592.534µs        | match      | /ajax                                    | 
+2016/02/10 15:24:53 [router.go:828][D] | GET        | /                                        | 11.726491ms      | match      | /                                        | 
+2016/02/10 15:24:54 [router.go:828][D] | GET        | /ajax                                    | 97.289µs         | match      | /ajax                                    | 
+2016/02/10 15:25:29 [router.go:828][D] | GET        | /                                        | 19.511069ms      | match      | /                                        | 
+2016/02/10 15:25:29 [router.go:828][D] | GET        | /ajax                                    | 394.533µs        | match      | /ajax                                    | 
+2016/02/10 15:25:52 [router.go:828][D] | GET        | /                                        | 10.727201ms      | match      | /                                        | 
+2016/02/10 15:25:52 [router.go:828][D] | GET        | /ajax                                    | 317.289µs        | match      | /ajax                                    | 
+2016/02/10 15:25:54 [router.go:828][D] | GET        | /                                        | 7.237023ms       | match      | /                                        | 
+2016/02/10 15:25:54 [router.go:828][D] | GET        | /ajax                                    | 114.4µs          | match      | /ajax                                    | 
+2016/02/10 15:26:17 [router.go:828][D] | GET        | /                                        | 7.580223ms       | match      | /                                        | 
+2016/02/10 15:26:18 [router.go:828][D] | GET        | /ajax                                    | 191.644µs        | match      | /ajax                                    | 
+2016/02/10 15:26:31 [router.go:828][D] | GET        | /                                        | 15.798935ms      | match      | /                                        | 
+2016/02/10 15:26:32 [router.go:828][D] | GET        | /ajax                                    | 150.089µs        | match      | /ajax                                    | 
+2016/02/10 15:27:59 [router.go:828][D] | GET        | /                                        | 9.880935ms       | match      | /                                        | 
+2016/02/10 15:28:00 [router.go:828][D] | GET        | /ajax                                    | 234.178µs        | match      | /ajax                                    | 
+2016/02/10 15:28:54 [router.go:828][D] | GET        | /                                        | 9.063512ms       | match      | /                                        | 
+2016/02/10 15:28:54 [router.go:828][D] | GET        | /ajax                                    | 225.377µs        | match      | /ajax                                    | 
+2016/02/10 15:30:06 [router.go:828][D] | GET        | /                                        | 17.790669ms      | match      | /                                        | 
+2016/02/10 15:30:06 [router.go:828][D] | GET        | /ajax                                    | 140.8µs          | match      | /ajax                                    | 
+2016/02/10 15:30:25 [controller.go:267][D] template Execute err: html/template:home.html: "\"" in attribute name: "topicCategory\">\n         <h3>文章分" 
+2016/02/10 15:30:25 [router.go:853][C] the request url is  / 
+2016/02/10 15:30:25 [router.go:854][C] Handler crashed with error html/template:home.html: "\"" in attribute name: "topicCategory\">\n         <h3>文章分" 
+2016/02/10 15:30:25 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/02/10 15:30:25 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/02/10 15:30:25 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:785 
+2016/02/10 15:30:25 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/02/10 15:30:25 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/02/10 15:30:25 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/02/10 15:30:44 [router.go:828][D] | GET        | /                                        | 8.16249ms        | match      | /                                        | 
+2016/02/10 15:30:44 [router.go:828][D] | GET        | /ajax                                    | 393.067µs        | match      | /ajax                                    | 
+2016/02/10 15:30:54 [router.go:828][D] | GET        | /                                        | 14.231557ms      | match      | /                                        | 
+2016/02/10 15:30:54 [router.go:828][D] | GET        | /ajax                                    | 233.689µs        | match      | /ajax                                    | 
+2016/02/10 15:31:17 [router.go:828][D] | GET        | /                                        | 9.872623ms       | match      | /                                        | 
+2016/02/10 15:31:17 [router.go:828][D] | GET        | /ajax                                    | 220µs            | match      | /ajax                                    | 
+2016/02/10 15:32:48 [router.go:828][D] | GET        | /topi                                    | 1.208533ms       | notmatch   | 
+2016/02/10 15:32:51 [router.go:828][D] | GET        | /                                        | 11.244935ms      | match      | /                                        | 
+2016/02/10 15:32:51 [router.go:828][D] | GET        | /ajax                                    | 97.778µs         | match      | /ajax                                    | 
+2016/02/10 15:33:18 [router.go:828][D] | GET        | /                                        | 7.802179ms       | match      | /                                        | 
+2016/02/10 15:33:18 [router.go:828][D] | GET        | /ajax                                    | 250.311µs        | match      | /ajax                                    | 
+2016/02/10 15:34:58 [router.go:828][D] | GET        | /                                        | 9.835468ms       | match      | /                                        | 
+2016/02/10 15:34:59 [router.go:828][D] | GET        | /ajax                                    | 175.511µs        | match      | /ajax                                    | 
+2016/02/10 15:37:01 [router.go:828][D] | GET        | /                                        | 8.058357ms       | match      | /                                        | 
+2016/02/10 15:37:01 [router.go:828][D] | GET        | /ajax                                    | 522.622µs        | match      | /ajax                                    | 
+2016/02/10 15:37:41 [router.go:828][D] | GET        | /                                        | 11.962623ms      | match      | /                                        | 
+2016/02/10 15:37:42 [router.go:828][D] | GET        | /ajax                                    | 100.222µs        | match      | /ajax                                    | 
+2016/02/10 15:41:29 [router.go:828][D] | GET        | /                                        | 10.043734ms      | match      | /                                        | 
+2016/02/10 15:41:29 [router.go:828][D] | GET        | /ajax                                    | 166.223µs        | match      | /ajax                                    | 
+2016/02/10 15:41:54 [router.go:828][D] | GET        | /                                        | 16.466758ms      | match      | /                                        | 
+2016/02/10 15:41:55 [router.go:828][D] | GET        | /ajax                                    | 241.511µs        | match      | /ajax                                    | 
+2016/02/11 14:04:09 [asm_386.s:2287][I] http server Running on :8080
+2016/02/11 14:05:24 [router.go:828][D] | GET        | /                                        | 14.05417ms       | match      | /                                        | 
+2016/02/11 14:05:24 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/02/11 14:05:24 [router.go:828][D] | GET        | /ajax                                    | 280.849µs        | match      | /ajax                                    | 
+2016/02/11 14:11:54 [router.go:828][D] | GET        | /                                        | 9.954669ms       | match      | /                                        | 
+2016/02/11 14:11:54 [router.go:828][D] | GET        | /ajax                                    | 94.106µs         | match      | /ajax                                    | 
+2016/02/14 13:04:22 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 13:04:28 [router.go:828][D] | GET        | /                                        | 13.347393ms      | match      | /                                        | 
+2016/02/14 13:04:29 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/02/14 13:04:29 [router.go:828][D] | GET        | /ajax                                    | 117.632µs        | match      | /ajax                                    | 
+2016/02/14 13:09:24 [router.go:828][D] | GET        | /                                        | 12.068628ms      | match      | /                                        | 
+2016/02/14 13:09:25 [router.go:828][D] | GET        | /ajax                                    | 288.69µs         | match      | /ajax                                    | 
+2016/02/14 13:09:36 [router.go:828][D] | GET        | /                                        | 8.468086ms       | match      | /                                        | 
+2016/02/14 13:09:36 [router.go:828][D] | GET        | /ajax                                    | 116.653µs        | match      | /ajax                                    | 
+2016/02/14 13:16:07 [router.go:828][D] | GET        | /                                        | 13.398368ms      | match      | /                                        | 
+2016/02/14 13:16:08 [router.go:828][D] | GET        | /ajax                                    | 213.209µs        | match      | /ajax                                    | 
+2016/02/14 13:16:08 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/02/14 13:48:34 [router.go:828][D] | GET        | /                                        | 14.065933ms      | match      | /                                        | 
+2016/02/14 13:48:34 [router.go:828][D] | GET        | /ajax                                    | 99.007µs         | match      | /ajax                                    | 
+2016/02/14 13:51:29 [router.go:828][D] | GET        | /                                        | 11.919626ms      | match      | /                                        | 
+2016/02/14 13:51:29 [router.go:828][D] | GET        | /ajax                                    | 151.942µs        | match      | /ajax                                    | 
+2016/02/14 14:19:47 [router.go:828][D] | GET        | /                                        | 15.248142ms      | match      | /                                        | 
+2016/02/14 14:29:45 [router.go:828][D] | GET        | /                                        | 15.734847ms      | match      | /                                        | 
+2016/02/14 14:29:45 [router.go:828][D] | GET        | /ajax                                    | 96.067µs         | match      | /ajax                                    | 
+2016/02/14 14:29:59 [router.go:828][D] | GET        | /                                        | 15.736318ms      | match      | /                                        | 
+2016/02/14 14:30:00 [router.go:828][D] | GET        | /ajax                                    | 118.123µs        | match      | /ajax                                    | 
+2016/02/14 14:30:08 [router.go:828][D] | GET        | /www.baidu.com                           | 1.61549ms        | notmatch   | 
+2016/02/14 14:30:27 [router.go:828][D] | GET        | /                                        | 13.571876ms      | match      | /                                        | 
+2016/02/14 14:30:28 [router.go:828][D] | GET        | /ajax                                    | 117.142µs        | match      | /ajax                                    | 
+2016/02/14 14:31:10 [router.go:828][D] | GET        | /                                        | 13.5856ms        | match      | /                                        | 
+2016/02/14 14:31:10 [router.go:828][D] | GET        | /ajax                                    | 114.201µs        | match      | /ajax                                    | 
+2016/02/14 14:31:41 [router.go:828][D] | GET        | /                                        | 12.686199ms      | match      | /                                        | 
+2016/02/14 14:31:41 [router.go:828][D] | GET        | /ajax                                    | 227.423µs        | match      | /ajax                                    | 
+2016/02/14 14:37:35 [router.go:828][D] | GET        | /                                        | 17.449344ms      | match      | /                                        | 
+2016/02/14 14:37:35 [router.go:828][D] | GET        | /ajax                                    | 316.138µs        | match      | /ajax                                    | 
+2016/02/14 14:37:48 [router.go:828][D] | GET        | /                                        | 15.567711ms      | match      | /                                        | 
+2016/02/14 14:37:49 [router.go:828][D] | GET        | /ajax                                    | 93.616µs         | match      | /ajax                                    | 
+2016/02/14 14:38:57 [router.go:828][D] | GET        | /                                        | 19.419693ms      | match      | /                                        | 
+2016/02/14 14:38:57 [router.go:828][D] | GET        | /ajax                                    | 114.692µs        | match      | /ajax                                    | 
+2016/02/14 14:39:23 [router.go:828][D] | GET        | /                                        | 17.213588ms      | match      | /                                        | 
+2016/02/14 14:39:23 [router.go:828][D] | GET        | /ajax                                    | 99.008µs         | match      | /ajax                                    | 
+2016/02/14 15:20:58 [router.go:828][D] | GET        | /                                        | 27.268736ms      | match      | /                                        | 
+2016/02/14 15:20:58 [router.go:828][D] | GET        | /ajax                                    | 97.047µs         | match      | /ajax                                    | 
+2016/02/14 15:21:12 [router.go:828][D] | GET        | /login                                   | 6.296782ms       | match      | /login                                   | 
+2016/02/14 15:21:24 [router.go:828][D] | POST       | /login                                   | 1.207696ms       | match      | /login                                   | 
+2016/02/14 15:21:24 [router.go:828][D] | GET        | /home                                    | 18.412462ms      | match      | /home                                    | 
+2016/02/14 15:21:25 [router.go:828][D] | GET        | /ajax                                    | 135.278µs        | match      | /ajax                                    | 
+2016/02/14 15:22:03 [router.go:828][D] | GET        | /logout                                  | 127.435µs        | match      | /logout                                  | 
+2016/02/14 15:22:03 [router.go:828][D] | GET        | /login                                   | 3.062372ms       | match      | /login                                   | 
+2016/02/14 15:22:08 [router.go:828][D] | GET        | /                                        | 24.607786ms      | match      | /                                        | 
+2016/02/14 15:22:09 [router.go:828][D] | GET        | /ajax                                    | 367.602µs        | match      | /ajax                                    | 
+2016/02/14 15:24:21 [router.go:828][D] | GET        | /                                        | 33.770395ms      | match      | /                                        | 
+2016/02/14 15:24:22 [router.go:828][D] | GET        | /ajax                                    | 241.147µs        | match      | /ajax                                    | 
+2016/02/14 15:38:05 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 15:38:25 [router.go:828][D] | GET        | /                                        | 29.845873ms      | match      | /                                        | 
+2016/02/14 15:38:26 [router.go:828][D] | GET        | /ajax                                    | 195.564µs        | match      | /ajax                                    | 
+2016/02/14 15:45:30 [router.go:828][D] | GET        | /                                        | 22.715369ms      | match      | /                                        | 
+2016/02/14 15:45:30 [router.go:828][D] | GET        | /ajax                                    | 316.628µs        | match      | /ajax                                    | 
+2016/02/14 15:48:14 [router.go:828][D] | GET        | /                                        | 33.710598ms      | match      | /                                        | 
+2016/02/14 15:48:15 [router.go:828][D] | GET        | /ajax                                    | 224.973µs        | match      | /ajax                                    | 
+2016/02/14 15:51:04 [router.go:828][D] | GET        | /                                        | 36.461734ms      | match      | /                                        | 
+2016/02/14 15:51:05 [router.go:828][D] | GET        | /ajax                                    | 451.416µs        | match      | /ajax                                    | 
+2016/02/14 15:52:16 [router.go:828][D] | GET        | /                                        | 22.215431ms      | match      | /                                        | 
+2016/02/14 15:52:16 [router.go:828][D] | GET        | /ajax                                    | 315.648µs        | match      | /ajax                                    | 
+2016/02/14 15:52:42 [router.go:828][D] | GET        | /                                        | 30.591371ms      | match      | /                                        | 
+2016/02/14 15:52:43 [router.go:828][D] | GET        | /ajax                                    | 313.197µs        | match      | /ajax                                    | 
+2016/02/14 15:56:43 [router.go:828][D] | GET        | /                                        | 32.429382ms      | match      | /                                        | 
+2016/02/14 15:56:44 [router.go:828][D] | GET        | /ajax                                    | 99.498µs         | match      | /ajax                                    | 
+2016/02/14 16:02:03 [router.go:828][D] | GET        | /                                        | 21.165068ms      | match      | /                                        | 
+2016/02/14 16:02:04 [router.go:828][D] | GET        | /ajax                                    | 223.992µs        | match      | /ajax                                    | 
+2016/02/14 16:03:05 [router.go:828][D] | GET        | /                                        | 27.416758ms      | match      | /                                        | 
+2016/02/14 16:03:06 [router.go:828][D] | GET        | /ajax                                    | 242.617µs        | match      | /ajax                                    | 
+2016/02/14 16:21:04 [router.go:828][D] | GET        | /                                        | 41.126361ms      | match      | /                                        | 
+2016/02/14 16:21:05 [router.go:828][D] | GET        | /ajax                                    | 94.106µs         | match      | /ajax                                    | 
+2016/02/14 16:32:08 [router.go:828][D] | GET        | /                                        | 54.95997ms       | match      | /                                        | 
+2016/02/14 16:32:09 [router.go:828][D] | GET        | /ajax                                    | 241.637µs        | match      | /ajax                                    | 
+2016/02/14 16:44:23 [router.go:828][D] | GET        | /                                        | 47.744183ms      | match      | /                                        | 
+2016/02/14 16:44:23 [router.go:828][D] | GET        | /ajax                                    | 95.576µs         | match      | /ajax                                    | 
+2016/02/14 16:51:41 [router.go:828][D] | GET        | /                                        | 27.485866ms      | match      | /                                        | 
+2016/02/14 16:51:42 [router.go:828][D] | GET        | /ajax                                    | 99.987µs         | match      | /ajax                                    | 
+2016/02/14 17:04:27 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 17:04:33 [router.go:828][D] | GET        | /                                        | 38.784ms         | match      | /                                        | 
+2016/02/14 17:04:33 [router.go:828][D] | GET        | /ajax                                    | 230.364µs        | match      | /ajax                                    | 
+2016/02/14 17:20:07 [router.go:828][D] | GET        | /                                        | 23.561345ms      | match      | /                                        | 
+2016/02/14 17:20:08 [router.go:828][D] | GET        | /ajax                                    | 99.008µs         | match      | /ajax                                    | 
+2016/02/14 17:25:46 [router.go:828][D] | GET        | /                                        | 30.708513ms      | match      | /                                        | 
+2016/02/14 17:25:46 [router.go:828][D] | GET        | /ajax                                    | 236.246µs        | match      | /ajax                                    | 
+2016/02/14 17:27:30 [router.go:828][D] | GET        | /                                        | 31.652025ms      | match      | /                                        | 
+2016/02/14 17:27:30 [router.go:828][D] | GET        | /ajax                                    | 184.292µs        | match      | /ajax                                    | 
+2016/02/14 17:27:56 [router.go:828][D] | GET        | /                                        | 40.539668ms      | match      | /                                        | 
+2016/02/14 17:27:56 [router.go:828][D] | GET        | /ajax                                    | 298.003µs        | match      | /ajax                                    | 
+2016/02/14 17:29:10 [router.go:828][D] | GET        | /                                        | 40.722489ms      | match      | /                                        | 
+2016/02/14 17:29:10 [router.go:828][D] | GET        | /ajax                                    | 99.988µs         | match      | /ajax                                    | 
+2016/02/14 17:30:04 [router.go:828][D] | GET        | /                                        | 32.074033ms      | match      | /                                        | 
+2016/02/14 17:30:04 [router.go:828][D] | GET        | /ajax                                    | 340.154µs        | match      | /ajax                                    | 
+2016/02/14 17:37:10 [router.go:828][D] | GET        | /                                        | 39.501069ms      | match      | /                                        | 
+2016/02/14 17:37:10 [router.go:828][D] | GET        | /ajax                                    | 99.988µs         | match      | /ajax                                    | 
+2016/02/14 17:37:37 [router.go:828][D] | GET        | /                                        | 33.057736ms      | match      | /                                        | 
+2016/02/14 17:37:38 [router.go:828][D] | GET        | /ajax                                    | 98.517µs         | match      | /ajax                                    | 
+2016/02/14 17:38:53 [router.go:828][D] | GET        | /                                        | 53.84589ms       | match      | /                                        | 
+2016/02/14 17:38:54 [router.go:828][D] | GET        | /ajax                                    | 121.554µs        | match      | /ajax                                    | 
+2016/02/14 17:39:30 [router.go:828][D] | GET        | /                                        | 40.376943ms      | match      | /                                        | 
+2016/02/14 17:39:31 [router.go:828][D] | GET        | /ajax                                    | 222.032µs        | match      | /ajax                                    | 
+2016/02/14 17:40:25 [router.go:828][D] | GET        | /                                        | 50.581092ms      | match      | /                                        | 
+2016/02/14 17:40:25 [router.go:828][D] | GET        | /ajax                                    | 99.988µs         | match      | /ajax                                    | 
+2016/02/14 17:40:32 [router.go:828][D] | GET        | /                                        | 38.416397ms      | match      | /                                        | 
+2016/02/14 17:40:32 [router.go:828][D] | GET        | /ajax                                    | 261.733µs        | match      | /ajax                                    | 
+2016/02/14 17:53:52 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 17:58:14 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 17:58:18 [router.go:828][D] | GET        | /                                        | 64.154437ms      | match      | /                                        | 
+2016/02/14 17:58:19 [router.go:828][D] | GET        | /ajax                                    | 222.032µs        | match      | /ajax                                    | 
+2016/02/14 17:58:26 [router.go:828][D] | POST       | /ajax                                    | 130.866µs        | match      | /ajax                                    | 
+2016/02/14 17:58:34 [router.go:828][D] | GET        | /                                        | 37.472395ms      | match      | /                                        | 
+2016/02/14 17:58:34 [router.go:828][D] | GET        | /ajax                                    | 267.614µs        | match      | /ajax                                    | 
+2016/02/14 17:58:38 [router.go:828][D] | POST       | /ajax                                    | 120.574µs        | match      | /ajax                                    | 
+2016/02/14 17:58:40 [router.go:828][D] | POST       | /ajax                                    | 124.985µs        | match      | /ajax                                    | 
+2016/02/14 17:58:42 [router.go:828][D] | POST       | /ajax                                    | 413.185µs        | match      | /ajax                                    | 
+2016/02/14 17:58:44 [router.go:828][D] | POST       | /ajax                                    | 295.552µs        | match      | /ajax                                    | 
+2016/02/14 17:58:47 [router.go:828][D] | POST       | /ajax                                    | 156.844µs        | match      | /ajax                                    | 
+2016/02/14 17:58:52 [router.go:828][D] | POST       | /ajax                                    | 134.788µs        | match      | /ajax                                    | 
+2016/02/14 17:58:55 [router.go:828][D] | POST       | /ajax                                    | 125.965µs        | match      | /ajax                                    | 
+2016/02/14 18:00:12 [router.go:828][D] | GET        | /                                        | 60.993548ms      | match      | /                                        | 
+2016/02/14 18:00:12 [router.go:828][D] | GET        | /ajax                                    | 193.114µs        | match      | /ajax                                    | 
+2016/02/14 18:00:18 [router.go:828][D] | POST       | /ajax                                    | 164.195µs        | match      | /ajax                                    | 
+2016/02/14 18:00:22 [router.go:828][D] | GET        | /login                                   | 1.608137ms       | match      | /login                                   | 
+2016/02/14 18:01:03 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 19:28:30 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 19:52:54 [router.go:828][D] | GET        | /                                        | 65.602791ms      | match      | /                                        | 
+2016/02/14 19:52:54 [router.go:828][D] | GET        | /ajax                                    | 567.578µs        | match      | /ajax                                    | 
+2016/02/14 19:53:19 [router.go:828][D] | POST       | /ajax                                    | 135.277µs        | match      | /ajax                                    | 
+2016/02/14 19:53:23 [router.go:828][D] | GET        | /login                                   | 7.651029ms       | match      | /login                                   | 
+2016/02/14 19:53:30 [router.go:828][D] | POST       | /login                                   | 850.877µs        | match      | /login                                   | 
+2016/02/14 19:53:30 [router.go:828][D] | GET        | /home                                    | 40.606817ms      | match      | /home                                    | 
+2016/02/14 19:53:30 [router.go:828][D] | GET        | /ajax                                    | 132.827µs        | match      | /ajax                                    | 
+2016/02/14 19:53:38 [router.go:853][C] the request url is  /ajax 
+2016/02/14 19:53:38 [router.go:854][C] Handler crashed with error can't find templatefile in the path:ajaxcontroller/post.tpl 
+2016/02/14 19:53:38 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/02/14 19:53:38 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/02/14 19:53:38 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/02/14 19:53:38 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/02/14 19:53:38 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:784 
+2016/02/14 19:53:38 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/02/14 19:53:38 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/02/14 19:53:38 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/02/14 20:16:10 [router.go:828][D] | GET        | /home                                    | 46.041938ms      | match      | /home                                    | 
+2016/02/14 20:16:10 [router.go:828][D] | GET        | /ajax                                    | 445.534µs        | match      | /ajax                                    | 
+2016/02/14 20:16:12 [router.go:828][D] | GET        | /logout                                  | 84.304µs         | match      | /logout                                  | 
+2016/02/14 20:16:12 [router.go:828][D] | GET        | /login                                   | 3.731408ms       | match      | /login                                   | 
+2016/02/14 20:16:20 [router.go:828][D] | POST       | /login                                   | 1.197403ms       | match      | /login                                   | 
+2016/02/14 20:16:20 [router.go:828][D] | GET        | /home                                    | 37.291044ms      | match      | /home                                    | 
+2016/02/14 20:16:20 [router.go:828][D] | GET        | /ajax                                    | 187.232µs        | match      | /ajax                                    | 
+2016/02/14 20:16:27 [router.go:853][C] the request url is  /ajax 
+2016/02/14 20:16:27 [router.go:854][C] Handler crashed with error can't find templatefile in the path:ajaxcontroller/post.tpl 
+2016/02/14 20:16:27 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/02/14 20:16:27 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/02/14 20:16:27 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/02/14 20:16:27 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/02/14 20:16:27 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:784 
+2016/02/14 20:16:27 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/02/14 20:16:27 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/02/14 20:16:27 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/02/14 20:17:52 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 20:19:59 [router.go:828][D] | GET        | /home                                    | 52.26373ms       | match      | /home                                    | 
+2016/02/14 20:20:00 [router.go:828][D] | GET        | /ajax                                    | 371.524µs        | match      | /ajax                                    | 
+2016/02/14 20:20:01 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 20:20:02 [router.go:828][D] | GET        | /logout                                  | 1.013112ms       | match      | /logout                                  | 
+2016/02/14 20:20:02 [router.go:828][D] | GET        | /login                                   | 2.296289ms       | match      | /login                                   | 
+2016/02/14 20:20:05 [router.go:828][D] | GET        | /login                                   | 1.844873ms       | match      | /login                                   | 
+2016/02/14 20:20:08 [router.go:828][D] | GET        | /                                        | 47.98778ms       | match      | /                                        | 
+2016/02/14 20:20:09 [router.go:828][D] | GET        | /ajax                                    | 170.567µs        | match      | /ajax                                    | 
+2016/02/14 20:20:18 [router.go:828][D] | POST       | /ajax                                    | 224.483µs        | match      | /ajax                                    | 
+2016/02/14 20:20:22 [router.go:828][D] | GET        | /login                                   | 5.237597ms       | match      | /login                                   | 
+2016/02/14 20:20:30 [router.go:828][D] | POST       | /login                                   | 3.688276ms       | match      | /login                                   | 
+2016/02/14 20:20:30 [router.go:828][D] | GET        | /home                                    | 36.729838ms      | match      | /home                                    | 
+2016/02/14 20:20:31 [router.go:828][D] | GET        | /ajax                                    | 132.337µs        | match      | /ajax                                    | 
+2016/02/14 20:21:53 [router.go:828][D] | GET        | /logout                                  | 92.635µs         | match      | /logout                                  | 
+2016/02/14 20:21:53 [router.go:828][D] | GET        | /login                                   | 6.827599ms       | match      | /login                                   | 
+2016/02/14 20:22:00 [router.go:828][D] | POST       | /login                                   | 617.081µs        | match      | /login                                   | 
+2016/02/14 20:22:00 [router.go:828][D] | GET        | /home                                    | 38.967801ms      | match      | /home                                    | 
+2016/02/14 20:22:00 [router.go:828][D] | GET        | /ajax                                    | 129.396µs        | match      | /ajax                                    | 
+2016/02/14 20:22:07 [router.go:853][C] the request url is  /ajax 
+2016/02/14 20:22:07 [router.go:854][C] Handler crashed with error can't find templatefile in the path:ajaxcontroller/post.tpl 
+2016/02/14 20:22:07 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/02/14 20:22:07 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/02/14 20:22:07 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/02/14 20:22:07 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/02/14 20:22:07 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:784 
+2016/02/14 20:22:07 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/02/14 20:22:07 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/02/14 20:22:07 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/02/14 20:22:49 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 20:24:28 [ajax.go:30][D] Debug====do is  createCategory 
+2016/02/14 20:24:28 [router.go:828][D] | POST       | /ajax                                    | 68.555372ms      | match      | /ajax                                    | 
+2016/02/14 20:27:07 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 20:27:11 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 20:27:12 [router.go:828][D] | GET        | /home                                    | 67.21779ms       | match      | /home                                    | 
+2016/02/14 20:27:12 [router.go:828][D] | GET        | /ajax                                    | 160.275µs        | match      | /ajax                                    | 
+2016/02/14 20:27:16 [router.go:828][D] | GET        | /home                                    | 71.841736ms      | match      | /home                                    | 
+2016/02/14 20:27:17 [router.go:828][D] | GET        | /ajax                                    | 173.999µs        | match      | /ajax                                    | 
+2016/02/14 20:27:20 [router.go:828][D] | GET        | /logout                                  | 113.221µs        | match      | /logout                                  | 
+2016/02/14 20:27:20 [router.go:828][D] | GET        | /login                                   | 2.051221ms       | match      | /login                                   | 
+2016/02/14 20:27:26 [router.go:828][D] | POST       | /login                                   | 990.565µs        | match      | /login                                   | 
+2016/02/14 20:27:26 [router.go:828][D] | GET        | /home                                    | 45.785598ms      | match      | /home                                    | 
+2016/02/14 20:27:26 [router.go:828][D] | GET        | /ajax                                    | 171.548µs        | match      | /ajax                                    | 
+2016/02/14 20:27:35 [ajax.go:30][D] Debug====do is  createCategory 
+2016/02/14 20:27:35 [router.go:828][D] | POST       | /ajax                                    | 68.83377ms       | match      | /ajax                                    | 
+2016/02/14 20:54:29 [router.go:828][D] | GET        | /logout                                  | 134.297µs        | match      | /logout                                  | 
+2016/02/14 20:54:29 [router.go:828][D] | GET        | /login                                   | 1.781156ms       | match      | /login                                   | 
+2016/02/14 20:55:03 [asm_386.s:2287][I] http server Running on :8080
+2016/02/14 20:55:07 [router.go:828][D] | GET        | /login                                   | 2.631542ms       | match      | /login                                   | 
+2016/02/14 20:55:15 [router.go:828][D] | POST       | /login                                   | 2.326677ms       | match      | /login                                   | 
+2016/02/14 20:55:15 [router.go:828][D] | GET        | /home                                    | 40.00885ms       | match      | /home                                    | 
+2016/02/14 20:55:15 [router.go:828][D] | GET        | /ajax                                    | 148.511µs        | match      | /ajax                                    | 
+2016/02/14 20:55:26 [router.go:828][D] | POST       | /ajax                                    | 38.252692ms      | match      | /ajax                                    | 
+2016/02/14 20:55:28 [router.go:828][D] | GET        | /ajax                                    | 1.392477ms       | match      | /ajax                                    | 
+2016/02/14 20:56:23 [router.go:828][D] | GET        | /home                                    | 66.726183ms      | match      | /home                                    | 
+2016/02/14 20:56:23 [router.go:828][D] | GET        | /ajax                                    | 568.558µs        | match      | /ajax                                    | 
+2016/02/14 20:56:23 [router.go:828][D] | GET        | /ajax                                    | 533.758µs        | match      | /ajax                                    | 
+2016/02/14 20:57:01 [router.go:828][D] | GET        | /logout                                  | 230.855µs        | match      | /logout                                  | 
+2016/02/14 20:57:01 [router.go:828][D] | GET        | /login                                   | 1.695871ms       | match      | /login                                   | 
+2016/02/14 20:57:08 [router.go:828][D] | POST       | /login                                   | 678.348µs        | match      | /login                                   | 
+2016/02/14 20:57:08 [router.go:828][D] | GET        | /home                                    | 44.736215ms      | match      | /home                                    | 
+2016/02/14 20:57:08 [router.go:828][D] | GET        | /ajax                                    | 572.969µs        | match      | /ajax                                    | 
+2016/02/14 20:57:08 [router.go:828][D] | GET        | /ajax                                    | 1.406202ms       | match      | /ajax                                    | 
+2016/02/14 20:57:23 [router.go:828][D] | GET        | /home                                    | 42.179665ms      | match      | /home                                    | 
+2016/02/14 20:57:23 [router.go:828][D] | GET        | /ajax                                    | 333.292µs        | match      | /ajax                                    | 
+2016/02/14 20:57:23 [router.go:828][D] | GET        | /ajax                                    | 674.918µs        | match      | /ajax                                    | 
+2016/02/14 21:00:27 [router.go:828][D] | GET        | /home                                    | 50.82567ms       | match      | /home                                    | 
+2016/02/14 21:00:27 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/02/14 21:00:28 [router.go:828][D] | GET        | /ajax                                    | 129.396µs        | match      | /ajax                                    | 
+2016/02/14 21:00:28 [router.go:828][D] | GET        | /ajax                                    | 525.917µs        | match      | /ajax                                    | 
+2016/02/15 15:05:33 [asm_386.s:2287][I] http server Running on :8080
+2016/02/15 15:05:42 [router.go:828][D] | GET        | /                                        | 48.245402ms      | match      | /                                        | 
+2016/02/15 15:05:42 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/02/15 15:05:48 [router.go:828][D] | GET        | /ajax                                    | 272.515µs        | match      | /ajax                                    | 
+2016/02/15 15:05:48 [router.go:828][D] | GET        | /ajax                                    | 1.244942ms       | match      | /ajax                                    | 
+2016/02/15 15:06:52 [router.go:828][D] | GET        | /                                        | 55.753282ms      | match      | /                                        | 
+2016/02/15 15:06:55 [router.go:828][D] | GET        | /ajax                                    | 115.182µs        | match      | /ajax                                    | 
+2016/02/15 15:06:55 [router.go:828][D] | GET        | /ajax                                    | 663.152µs        | match      | /ajax                                    | 
+2016/02/15 15:10:25 [router.go:828][D] | GET        | /                                        | 41.432044ms      | match      | /                                        | 
+2016/02/15 15:10:25 [router.go:828][D] | GET        | /ajax                                    | 399.46µs         | match      | /ajax                                    | 
+2016/02/15 15:10:26 [router.go:828][D] | GET        | /ajax                                    | 549.931µs        | match      | /ajax                                    | 
+2016/02/15 15:10:57 [router.go:828][D] | GET        | /                                        | 52.75807ms       | match      | /                                        | 
+2016/02/15 15:11:03 [router.go:828][D] | GET        | /                                        | 41.058071ms      | match      | /                                        | 
+2016/02/15 15:11:12 [router.go:828][D] | GET        | /                                        | 46.549538ms      | match      | /                                        | 
+2016/02/15 15:16:04 [router.go:828][D] | GET        | /ajax                                    | 132.336µs        | match      | /ajax                                    | 
+2016/02/15 15:16:04 [router.go:828][D] | GET        | /ajax                                    | 727.36µs         | match      | /ajax                                    | 
+2016/02/15 15:16:34 [router.go:828][D] | GET        | /                                        | 56.169406ms      | match      | /                                        | 
+2016/02/15 15:18:50 [router.go:828][D] | GET        | /                                        | 49.321247ms      | match      | /                                        | 
+2016/02/15 15:19:22 [router.go:828][D] | GET        | /ajax                                    | 223.502µs        | match      | /ajax                                    | 
+2016/02/15 15:19:22 [router.go:828][D] | GET        | /ajax                                    | 557.283µs        | match      | /ajax                                    | 
+2016/02/15 15:21:26 [router.go:828][D] | GET        | /                                        | 40.079763ms      | match      | /                                        | 
+2016/02/15 15:21:27 [router.go:828][D] | GET        | /ajax                                    | 118.123µs        | match      | /ajax                                    | 
+2016/02/15 15:21:27 [router.go:828][D] | GET        | /ajax                                    | 2.388425ms       | match      | /ajax                                    | 
+2016/02/15 15:28:24 [router.go:828][D] | GET        | /                                        | 42.661791ms      | match      | /                                        | 
+2016/02/15 15:28:25 [router.go:828][D] | GET        | /ajax                                    | 398.97µs         | match      | /ajax                                    | 
+2016/02/15 15:28:25 [router.go:828][D] | GET        | /ajax                                    | 1.651753ms       | match      | /ajax                                    | 
+2016/02/15 15:29:38 [router.go:828][D] | GET        | /                                        | 45.20951ms       | match      | /                                        | 
+2016/02/15 15:29:38 [router.go:828][D] | GET        | /ajax                                    | 237.225µs        | match      | /ajax                                    | 
+2016/02/15 15:29:39 [router.go:828][D] | GET        | /ajax                                    | 779.804µs        | match      | /ajax                                    | 
+2016/02/15 15:29:51 [router.go:828][D] | GET        | /                                        | 43.484237ms      | match      | /                                        | 
+2016/02/15 15:29:52 [router.go:828][D] | GET        | /ajax                                    | 98.517µs         | match      | /ajax                                    | 
+2016/02/15 15:29:52 [router.go:828][D] | GET        | /ajax                                    | 544.049µs        | match      | /ajax                                    | 
+2016/02/15 15:48:58 [router.go:828][D] | GET        | /                                        | 59.578781ms      | match      | /                                        | 
+2016/02/15 15:48:58 [router.go:828][D] | GET        | /ajax                                    | 144.1µs          | match      | /ajax                                    | 
+2016/02/15 15:48:58 [router.go:828][D] | GET        | /ajax                                    | 967.035µs        | match      | /ajax                                    | 
+2016/02/15 15:56:37 [router.go:828][D] | GET        | /                                        | 48.208152ms      | match      | /                                        | 
+2016/02/15 15:56:38 [router.go:828][D] | GET        | /ajax                                    | 142.139µs        | match      | /ajax                                    | 
+2016/02/15 15:56:38 [router.go:828][D] | GET        | /ajax                                    | 1.332675ms       | match      | /ajax                                    | 
+2016/02/15 16:01:06 [router.go:828][D] | GET        | /                                        | 56.462016ms      | match      | /                                        | 
+2016/02/15 16:01:07 [router.go:828][D] | GET        | /ajax                                    | 114.691µs        | match      | /ajax                                    | 
+2016/02/15 16:01:07 [router.go:828][D] | GET        | /ajax                                    | 1.946324ms       | match      | /ajax                                    | 
+2016/02/15 16:02:49 [router.go:828][D] | GET        | /                                        | 64.303187ms      | match      | /                                        | 
+2016/02/15 16:02:49 [router.go:828][D] | GET        | /ajax                                    | 400.44µs         | match      | /ajax                                    | 
+2016/02/15 16:02:50 [router.go:828][D] | GET        | /ajax                                    | 1.068003ms       | match      | /ajax                                    | 
+2016/02/15 16:03:49 [router.go:828][D] | GET        | /                                        | 68.837911ms      | match      | /                                        | 
+2016/02/15 16:03:50 [router.go:828][D] | GET        | /ajax                                    | 119.103µs        | match      | /ajax                                    | 
+2016/02/15 16:03:50 [router.go:828][D] | GET        | /ajax                                    | 2.243345ms       | match      | /ajax                                    | 
+2016/02/15 16:06:39 [router.go:828][D] | GET        | /                                        | 69.173162ms      | match      | /                                        | 
+2016/02/15 16:06:40 [router.go:828][D] | GET        | /ajax                                    | 450.434µs        | match      | /ajax                                    | 
+2016/02/15 16:06:40 [router.go:828][D] | GET        | /ajax                                    | 1.206221ms       | match      | /ajax                                    | 
+2016/02/15 16:09:48 [router.go:828][D] | GET        | /                                        | 71.791951ms      | match      | /                                        | 
+2016/02/15 16:09:48 [router.go:828][D] | GET        | /ajax                                    | 402.401µs        | match      | /ajax                                    | 
+2016/02/15 16:09:49 [router.go:828][D] | GET        | /ajax                                    | 1.332675ms       | match      | /ajax                                    | 
+2016/02/15 16:10:47 [router.go:828][D] | GET        | /                                        | 57.474144ms      | match      | /                                        | 
+2016/02/15 16:10:47 [router.go:828][D] | GET        | /ajax                                    | 405.831µs        | match      | /ajax                                    | 
+2016/02/15 16:10:48 [router.go:828][D] | GET        | /ajax                                    | 1.373357ms       | match      | /ajax                                    | 
+2016/02/15 16:11:20 [router.go:828][D] | GET        | /                                        | 69.529001ms      | match      | /                                        | 
+2016/02/15 16:11:21 [router.go:828][D] | GET        | /ajax                                    | 98.517µs         | match      | /ajax                                    | 
+2016/02/15 16:11:21 [router.go:828][D] | GET        | /ajax                                    | 627.863µs        | match      | /ajax                                    | 
+2016/02/15 16:12:14 [router.go:828][D] | GET        | /                                        | 68.393849ms      | match      | /                                        | 
+2016/02/15 16:12:15 [router.go:828][D] | GET        | /ajax                                    | 216.149µs        | match      | /ajax                                    | 
+2016/02/15 16:12:15 [router.go:828][D] | GET        | /ajax                                    | 947.43µs         | match      | /ajax                                    | 
+2016/02/15 16:13:04 [router.go:828][D] | GET        | /                                        | 66.091687ms      | match      | /                                        | 
+2016/02/15 16:13:05 [router.go:828][D] | GET        | /ajax                                    | 115.671µs        | match      | /ajax                                    | 
+2016/02/15 16:13:05 [router.go:828][D] | GET        | /ajax                                    | 3.177542ms       | match      | /ajax                                    | 
+2016/02/15 16:13:51 [router.go:828][D] | GET        | /                                        | 64.793811ms      | match      | /                                        | 
+2016/02/15 16:13:51 [router.go:828][D] | GET        | /ajax                                    | 108.32µs         | match      | /ajax                                    | 
+2016/02/15 16:13:51 [router.go:828][D] | GET        | /ajax                                    | 2.076209ms       | match      | /ajax                                    | 
+2016/02/15 16:15:12 [router.go:828][D] | GET        | /                                        | 57.503552ms      | match      | /                                        | 
+2016/02/15 16:15:13 [router.go:828][D] | GET        | /ajax                                    | 400.439µs        | match      | /ajax                                    | 
+2016/02/15 16:15:13 [router.go:828][D] | GET        | /ajax                                    | 824.896µs        | match      | /ajax                                    | 
+2016/02/15 16:15:41 [router.go:828][D] | GET        | /                                        | 56.393398ms      | match      | /                                        | 
+2016/02/15 16:15:42 [router.go:828][D] | GET        | /ajax                                    | 95.086µs         | match      | /ajax                                    | 
+2016/02/15 16:15:42 [router.go:828][D] | GET        | /ajax                                    | 647.958µs        | match      | /ajax                                    | 
+2016/02/15 16:17:01 [router.go:828][D] | GET        | /                                        | 70.579848ms      | match      | /                                        | 
+2016/02/15 16:17:01 [router.go:828][D] | GET        | /ajax                                    | 122.043µs        | match      | /ajax                                    | 
+2016/02/15 16:17:02 [router.go:828][D] | GET        | /ajax                                    | 2.116891ms       | match      | /ajax                                    | 
+2016/02/15 16:17:44 [router.go:828][D] | GET        | /                                        | 57.962318ms      | match      | /                                        | 
+2016/02/15 16:17:45 [router.go:828][D] | GET        | /ajax                                    | 97.046µs         | match      | /ajax                                    | 
+2016/02/15 16:17:45 [router.go:828][D] | GET        | /ajax                                    | 689.619µs        | match      | /ajax                                    | 
+2016/02/15 16:21:43 [router.go:828][D] | GET        | /                                        | 73.860809ms      | match      | /                                        | 
+2016/02/15 16:21:43 [router.go:828][D] | GET        | /ajax                                    | 98.517µs         | match      | /ajax                                    | 
+2016/02/15 16:21:43 [router.go:828][D] | GET        | /ajax                                    | 2.143358ms       | match      | /ajax                                    | 
+2016/02/15 16:23:11 [router.go:828][D] | GET        | /                                        | 58.978367ms      | match      | /                                        | 
+2016/02/15 16:23:12 [router.go:828][D] | GET        | /ajax                                    | 405.831µs        | match      | /ajax                                    | 
+2016/02/15 16:23:12 [router.go:828][D] | GET        | /ajax                                    | 1.603229ms       | match      | /ajax                                    | 
+2016/02/15 16:26:48 [router.go:828][D] | GET        | /                                        | 61.474131ms      | match      | /                                        | 
+2016/02/15 16:26:49 [router.go:828][D] | GET        | /ajax                                    | 120.083µs        | match      | /ajax                                    | 
+2016/02/15 16:26:49 [router.go:828][D] | GET        | /ajax                                    | 1.78703ms        | match      | /ajax                                    | 
+2016/02/15 16:29:21 [router.go:828][D] | GET        | /                                        | 59.326362ms      | match      | /                                        | 
+2016/02/15 16:29:22 [router.go:828][D] | GET        | /ajax                                    | 225.462µs        | match      | /ajax                                    | 
+2016/02/15 16:29:22 [router.go:828][D] | GET        | /ajax                                    | 3.175581ms       | match      | /ajax                                    | 
+2016/02/15 16:30:07 [router.go:828][D] | GET        | /                                        | 69.52753ms       | match      | /                                        | 
+2016/02/15 16:30:08 [router.go:828][D] | GET        | /ajax                                    | 543.069µs        | match      | /ajax                                    | 
+2016/02/15 16:30:08 [router.go:828][D] | GET        | /ajax                                    | 106.849µs        | match      | /ajax                                    | 
+2016/02/15 16:53:56 [router.go:828][D] | GET        | /                                        | 75.878202ms      | match      | /                                        | 
+2016/02/15 16:53:57 [router.go:828][D] | GET        | /ajax                                    | 400.439µs        | match      | /ajax                                    | 
+2016/02/15 16:55:12 [router.go:828][D] | GET        | /                                        | 64.545314ms      | match      | /                                        | 
+2016/02/15 16:56:20 [router.go:828][D] | GET        | /                                        | 91.247347ms      | match      | /                                        | 
+2016/02/15 16:56:20 [router.go:828][D] | GET        | /ajax                                    | 113.711µs        | match      | /ajax                                    | 
+2016/02/15 17:00:24 [router.go:828][D] | GET        | /                                        | 65.728989ms      | match      | /                                        | 
+2016/02/15 17:00:25 [router.go:828][D] | GET        | /ajax                                    | 110.77µs         | match      | /ajax                                    | 
+2016/02/15 17:00:52 [router.go:828][D] | GET        | /                                        | 74.588168ms      | match      | /                                        | 
+2016/02/15 17:00:53 [router.go:828][D] | GET        | /ajax                                    | 569.046µs        | match      | /ajax                                    | 
+2016/02/15 17:00:53 [router.go:828][D] | GET        | /ajax                                    | 451.414µs        | match      | /ajax                                    | 
+2016/02/15 17:04:19 [router.go:828][D] | GET        | /                                        | 69.751032ms      | match      | /                                        | 
+2016/02/15 17:04:20 [router.go:828][D] | GET        | /ajax                                    | 2.647216ms       | match      | /ajax                                    | 
+2016/02/15 17:04:20 [router.go:828][D] | GET        | /ajax                                    | 94.106µs         | match      | /ajax                                    | 
+2016/02/15 17:05:17 [router.go:828][D] | POST       | /ajax                                    | 19.679878ms      | match      | /ajax                                    | 
+2016/02/15 17:05:24 [router.go:828][D] | GET        | /login                                   | 48.472335ms      | match      | /login                                   | 
+2016/02/15 17:05:33 [router.go:828][D] | POST       | /login                                   | 42.307914ms      | match      | /login                                   | 
+2016/02/15 17:05:33 [router.go:828][D] | GET        | /home                                    | 81.078528ms      | match      | /home                                    | 
+2016/02/15 17:05:40 [router.go:828][D] | GET        | /ajax                                    | 537.187µs        | match      | /ajax                                    | 
+2016/02/15 17:05:41 [router.go:828][D] | GET        | /ajax                                    | 262.712µs        | match      | /ajax                                    | 
+2016/02/15 17:05:48 [router.go:828][D] | POST       | /ajax                                    | 296.08629ms      | match      | /ajax                                    | 
+2016/02/15 17:05:50 [router.go:828][D] | GET        | /ajax                                    | 2.614377ms       | match      | /ajax                                    | 
+2016/02/15 17:06:02 [router.go:828][D] | GET        | /logout                                  | 107.83µs         | match      | /logout                                  | 
+2016/02/15 17:06:02 [router.go:828][D] | GET        | /login                                   | 1.597838ms       | match      | /login                                   | 
+2016/02/15 17:06:07 [router.go:828][D] | GET        | /                                        | 80.505561ms      | match      | /                                        | 
+2016/02/15 17:06:08 [router.go:828][D] | GET        | /ajax                                    | 2.689367ms       | match      | /ajax                                    | 
+2016/02/15 17:06:09 [router.go:828][D] | GET        | /ajax                                    | 142.629µs        | match      | /ajax                                    | 
+2016/02/15 17:09:01 [router.go:828][D] | GET        | /                                        | 63.29253ms       | match      | /                                        | 
+2016/02/15 17:09:02 [router.go:828][D] | GET        | /ajax                                    | 479.352µs        | match      | /ajax                                    | 
+2016/02/15 17:09:02 [router.go:828][D] | GET        | /ajax                                    | 99.988µs         | match      | /ajax                                    | 
+2016/02/15 17:09:23 [router.go:828][D] | GET        | /                                        | 51.169545ms      | match      | /                                        | 
+2016/02/15 17:09:24 [router.go:828][D] | GET        | /ajax                                    | 612.178µs        | match      | /ajax                                    | 
+2016/02/15 17:09:24 [router.go:828][D] | GET        | /ajax                                    | 408.772µs        | match      | /ajax                                    | 
+2016/02/15 17:10:06 [router.go:828][D] | GET        | /                                        | 52.841393ms      | match      | /                                        | 
+2016/02/15 17:10:06 [router.go:828][D] | GET        | /ajax                                    | 475.431µs        | match      | /ajax                                    | 
+2016/02/15 17:10:07 [router.go:828][D] | GET        | /ajax                                    | 402.401µs        | match      | /ajax                                    | 
+2016/02/15 17:11:15 [router.go:828][D] | GET        | /                                        | 50.780378ms      | match      | /                                        | 
+2016/02/15 17:11:16 [router.go:828][D] | GET        | /ajax                                    | 704.323µs        | match      | /ajax                                    | 
+2016/02/15 17:14:42 [router.go:828][D] | GET        | /                                        | 61.509911ms      | match      | /                                        | 
+2016/02/15 17:14:43 [router.go:828][D] | GET        | /ajax                                    | 1.801734ms       | match      | /ajax                                    | 
+2016/02/15 17:19:24 [router.go:828][D] | GET        | /                                        | 55.617025ms      | match      | /                                        | 
+2016/02/15 17:19:25 [router.go:828][D] | GET        | /ajax                                    | 2.662901ms       | match      | /ajax                                    | 
+2016/02/15 17:19:25 [router.go:828][D] | GET        | /ajax                                    | 143.609µs        | match      | /ajax                                    | 
+2016/02/15 17:19:34 [router.go:828][D] | POST       | /ajax                                    | 121.553µs        | match      | /ajax                                    | 
+2016/02/15 17:19:38 [router.go:828][D] | GET        | /login                                   | 3.325072ms       | match      | /login                                   | 
+2016/02/15 17:19:45 [router.go:828][D] | POST       | /login                                   | 4.19555ms        | match      | /login                                   | 
+2016/02/15 17:19:45 [router.go:828][D] | GET        | /home                                    | 94.991485ms      | match      | /home                                    | 
+2016/02/15 17:19:46 [router.go:828][D] | GET        | /ajax                                    | 512.681µs        | match      | /ajax                                    | 
+2016/02/15 17:19:46 [router.go:828][D] | GET        | /ajax                                    | 165.176µs        | match      | /ajax                                    | 
+2016/02/15 17:19:53 [router.go:828][D] | POST       | /ajax                                    | 51.410691ms      | match      | /ajax                                    | 
+2016/02/15 17:19:55 [router.go:828][D] | GET        | /ajax                                    | 2.07915ms        | match      | /ajax                                    | 
+2016/02/15 17:22:16 [router.go:828][D] | GET        | /home                                    | 58.698009ms      | match      | /home                                    | 
+2016/02/15 17:22:17 [router.go:828][D] | GET        | /ajax                                    | 580.319µs        | match      | /ajax                                    | 
+2016/02/15 17:22:17 [router.go:828][D] | GET        | /ajax                                    | 508.76µs         | match      | /ajax                                    | 
+2016/03/10 19:11:54 [asm_386.s:2287][I] http server Running on :8080
+2016/03/10 19:12:54 [router.go:828][D] | GET        | /                                        | 77.083766ms      | match      | /                                        | 
+2016/03/10 19:12:54 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/03/10 19:12:55 [router.go:828][D] | GET        | /ajax                                    | 249.479475ms     | match      | /ajax                                    | 
+2016/03/10 19:12:55 [router.go:828][D] | GET        | /ajax                                    | 186.742µs        | match      | /ajax                                    | 
+2016/03/10 19:13:20 [router.go:828][D] | GET        | /login                                   | 1.737534ms       | match      | /login                                   | 
+2016/03/10 19:13:27 [router.go:828][D] | POST       | /login                                   | 34.460027ms      | match      | /login                                   | 
+2016/03/10 19:13:27 [router.go:828][D] | GET        | /home                                    | 60.814666ms      | match      | /home                                    | 
+2016/03/10 19:13:28 [router.go:828][D] | GET        | /ajax                                    | 1.25524ms        | match      | /ajax                                    | 
+2016/03/10 19:13:28 [router.go:828][D] | GET        | /ajax                                    | 130.377µs        | match      | /ajax                                    | 
+2016/03/10 19:22:56 [router.go:828][D] | GET        | /                                        | 83.611404ms      | match      | /                                        | 
+2016/03/10 19:22:56 [router.go:828][D] | GET        | /ajax                                    | 581.302µs        | match      | /ajax                                    | 
+2016/03/10 19:22:56 [router.go:828][D] | GET        | /ajax                                    | 133.807µs        | match      | /ajax                                    | 
+2016/03/10 19:23:28 [router.go:828][D] | GET        | /                                        | 110.028291ms     | match      | /                                        | 
+2016/03/10 19:23:28 [router.go:828][D] | GET        | /ajax                                    | 595.026µs        | match      | /ajax                                    | 
+2016/03/10 19:23:28 [router.go:828][D] | GET        | /ajax                                    | 270.065µs        | match      | /ajax                                    | 
+2016/03/10 19:24:23 [router.go:828][D] | POST       | /ajax                                    | 449.215978ms     | match      | /ajax                                    | 
+2016/03/10 19:24:24 [router.go:828][D] | GET        | /ajax                                    | 2.462936ms       | match      | /ajax                                    | 
+2016/03/10 19:24:32 [router.go:828][D] | GET        | /                                        | 54.669334ms      | match      | /                                        | 
+2016/03/10 19:24:32 [router.go:828][D] | GET        | /ajax                                    | 554.344µs        | match      | /ajax                                    | 
+2016/03/10 19:24:32 [router.go:828][D] | GET        | /ajax                                    | 126.945µs        | match      | /ajax                                    | 
+2016/03/10 19:24:38 [router.go:828][D] | GET        | /                                        | 56.538225ms      | match      | /                                        | 
+2016/03/10 19:24:38 [router.go:828][D] | GET        | /ajax                                    | 30.59383ms       | match      | /ajax                                    | 
+2016/03/10 19:24:38 [router.go:828][D] | GET        | /ajax                                    | 417.596µs        | match      | /ajax                                    | 
+2016/03/10 19:29:56 [router.go:828][D] | GET        | /home                                    | 107.445761ms     | match      | /home                                    | 
+2016/03/10 19:29:57 [router.go:828][D] | GET        | /ajax                                    | 14.65361ms       | match      | /ajax                                    | 
+2016/03/10 19:29:57 [router.go:828][D] | GET        | /ajax                                    | 179.88µs         | match      | /ajax                                    | 
+2016/03/10 19:52:43 [asm_386.s:2287][I] http server Running on :8080
+2016/03/10 19:59:00 [router.go:828][D] | GET        | /                                        | 150.843426ms     | match      | /                                        | 
+2016/03/10 19:59:00 [router.go:828][D] | GET        | /ajax                                    | 88.033906ms      | match      | /ajax                                    | 
+2016/03/10 19:59:00 [router.go:828][D] | GET        | /ajax                                    | 155.863µs        | match      | /ajax                                    | 
+2016/03/10 19:59:16 [router.go:828][D] | POST       | /ajax                                    | 397.777624ms     | match      | /ajax                                    | 
+2016/03/10 19:59:17 [router.go:828][D] | GET        | /ajax                                    | 2.886414ms       | match      | /ajax                                    | 
+2016/03/10 19:59:24 [router.go:828][D] | POST       | /ajax                                    | 51.914277ms      | match      | /ajax                                    | 
+2016/03/10 19:59:25 [router.go:828][D] | GET        | /ajax                                    | 2.526654ms       | match      | /ajax                                    | 
+2016/03/10 19:59:31 [router.go:828][D] | POST       | /ajax                                    | 81.811623ms      | match      | /ajax                                    | 
+2016/03/10 19:59:32 [router.go:828][D] | GET        | /ajax                                    | 2.207085ms       | match      | /ajax                                    | 
+2016/03/10 19:59:41 [router.go:828][D] | POST       | /ajax                                    | 139.306594ms     | match      | /ajax                                    | 
+2016/03/10 19:59:43 [router.go:828][D] | GET        | /ajax                                    | 2.672225ms       | match      | /ajax                                    | 
+2016/03/10 20:00:08 [router.go:828][D] | POST       | /ajax                                    | 75.077638ms      | match      | /ajax                                    | 
+2016/03/10 20:00:09 [router.go:828][D] | GET        | /ajax                                    | 1.230733ms       | match      | /ajax                                    | 
+2016/03/12 16:25:56 [asm_386.s:2287][I] http server Running on :8080
+2016/03/12 16:27:06 [router.go:828][D] | GET        | /                                        | 60.242643ms      | match      | /                                        | 
+2016/03/12 16:27:06 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/03/12 16:27:20 [router.go:828][D] | GET        | /                                        | 60.313713ms      | match      | /                                        | 
+2016/03/12 16:27:27 [router.go:828][D] | GET        | /ajax                                    | 1.224851ms       | match      | /ajax                                    | 
+2016/03/12 16:27:27 [router.go:828][D] | GET        | /ajax                                    | 108.81µs         | match      | /ajax                                    | 
+2016/03/12 16:42:47 [router.go:828][D] | GET        | /                                        | 79.129552ms      | match      | /                                        | 
+2016/03/12 16:42:47 [router.go:828][D] | GET        | /ajax                                    | 1.51109ms        | match      | /ajax                                    | 
+2016/03/12 16:42:47 [router.go:828][D] | GET        | /ajax                                    | 96.067µs         | match      | /ajax                                    | 
+2016/03/12 16:42:57 [router.go:828][D] | POST       | /ajax                                    | 630.805µs        | match      | /ajax                                    | 
+2016/03/13 13:47:20 [asm_386.s:2287][I] http server Running on :8080
+2016/03/13 13:48:10 [router.go:828][D] | GET        | /                                        | 88.789522ms      | match      | /                                        | 
+2016/03/13 13:48:10 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/03/13 13:48:11 [router.go:828][D] | GET        | /ajax                                    | 1.396886ms       | match      | /ajax                                    | 
+2016/03/13 13:48:11 [router.go:828][D] | GET        | /ajax                                    | 121.064µs        | match      | /ajax                                    | 
+2016/03/13 14:36:58 [router.go:828][D] | GET        | /                                        | 97.054677ms      | match      | /                                        | 
+2016/03/13 14:36:59 [router.go:828][D] | GET        | /ajax                                    | 151.250924ms     | match      | /ajax                                    | 
+2016/03/13 14:36:59 [router.go:828][D] | GET        | /ajax                                    | 142.63µs         | match      | /ajax                                    | 
+2016/03/13 14:37:01 [router.go:828][D] | GET        | /login                                   | 8.553845ms       | match      | /login                                   | 
+2016/03/13 14:37:08 [router.go:828][D] | POST       | /login                                   | 476.405366ms     | match      | /login                                   | 
+2016/03/13 14:37:08 [router.go:828][D] | GET        | /home                                    | 55.54755ms       | match      | /home                                    | 
+2016/03/13 14:37:09 [router.go:828][D] | GET        | /ajax                                    | 29.236094ms      | match      | /ajax                                    | 
+2016/03/13 14:37:09 [router.go:828][D] | GET        | /ajax                                    | 144.1µs          | match      | /ajax                                    | 
+2016/03/13 14:38:37 [router.go:828][D] | GET        | /home                                    | 82.531472ms      | match      | /home                                    | 
+2016/03/13 14:38:37 [router.go:828][D] | GET        | /ajax                                    | 31.92939ms       | match      | /ajax                                    | 
+2016/03/13 14:38:37 [router.go:828][D] | GET        | /ajax                                    | 124.494µs        | match      | /ajax                                    | 
+2016/03/13 14:44:30 [router.go:828][D] | GET        | /home                                    | 75.302463ms      | match      | /home                                    | 
+2016/03/13 14:44:30 [router.go:828][D] | GET        | /ajax                                    | 1.424333ms       | match      | /ajax                                    | 
+2016/03/13 14:44:30 [router.go:828][D] | GET        | /ajax                                    | 174.488µs        | match      | /ajax                                    | 
+2016/03/13 16:29:30 [router.go:828][D] | GET        | /                                        | 81.443371ms      | match      | /                                        | 
+2016/03/13 16:31:30 [router.go:828][D] | GET        | /                                        | 89.83008ms       | match      | /                                        | 
+2016/03/13 16:31:32 [router.go:828][D] | GET        | /                                        | 94.13396ms       | match      | /                                        | 
+2016/03/13 16:31:33 [router.go:828][D] | GET        | /                                        | 114.065811ms     | match      | /                                        | 
+2016/03/13 16:31:34 [router.go:828][D] | GET        | /                                        | 75.43676ms       | match      | /                                        | 
+2016/03/13 16:31:35 [router.go:828][D] | GET        | /                                        | 92.54298ms       | match      | /                                        | 
+2016/03/13 16:32:05 [router.go:828][D] | GET        | /                                        | 91.235788ms      | match      | /                                        | 
+2016/03/13 16:32:05 [router.go:828][D] | GET        | /ajax                                    | 944.491µs        | match      | /ajax                                    | 
+2016/03/13 16:32:05 [router.go:828][D] | GET        | /ajax                                    | 338.194µs        | match      | /ajax                                    | 
+2016/03/13 16:37:09 [router.go:828][D] | GET        | /                                        | 74.754491ms      | match      | /                                        | 
+2016/03/13 16:37:10 [router.go:853][C] the request url is  /ajax 
+2016/03/13 16:37:10 [router.go:854][C] Handler crashed with error can't find templatefile in the path:ajaxcontroller/get.tpl 
+2016/03/13 16:37:10 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/13 16:37:10 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/13 16:37:10 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/03/13 16:37:10 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/03/13 16:37:10 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:784 
+2016/03/13 16:37:10 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/13 16:37:10 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/13 16:37:10 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/13 16:37:10 [router.go:828][D] | GET        | /ajax                                    | 142.63µs         | match      | /ajax                                    | 
+2016/03/13 16:38:29 [router.go:828][D] | GET        | /                                        | 83.896009ms      | match      | /                                        | 
+2016/03/13 16:38:31 [router.go:853][C] the request url is  /ajax 
+2016/03/13 16:38:31 [router.go:854][C] Handler crashed with error can't find templatefile in the path:ajaxcontroller/get.tpl 
+2016/03/13 16:38:31 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/13 16:38:31 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/13 16:38:31 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/03/13 16:38:31 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/03/13 16:38:31 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:784 
+2016/03/13 16:38:31 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/13 16:38:31 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/13 16:38:31 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/13 16:38:31 [router.go:828][D] | GET        | /ajax                                    | 254.87µs         | match      | /ajax                                    | 
+2016/03/13 16:40:32 [router.go:828][D] | GET        | /                                        | 87.424985ms      | match      | /                                        | 
+2016/03/13 16:40:33 [router.go:853][C] the request url is  /ajax 
+2016/03/13 16:40:33 [router.go:854][C] Handler crashed with error can't find templatefile in the path:ajaxcontroller/get.tpl 
+2016/03/13 16:40:33 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/13 16:40:33 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/13 16:40:33 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/03/13 16:40:33 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/03/13 16:40:33 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:784 
+2016/03/13 16:40:33 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/13 16:40:33 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/13 16:40:33 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/13 16:40:33 [router.go:828][D] | GET        | /ajax                                    | 201.446µs        | match      | /ajax                                    | 
+2016/03/13 16:40:52 [router.go:828][D] | GET        | /logout                                  | 12.917032ms      | match      | /logout                                  | 
+2016/03/13 16:40:52 [router.go:828][D] | GET        | /login                                   | 1.88016ms        | match      | /login                                   | 
+2016/03/13 16:40:59 [router.go:828][D] | POST       | /login                                   | 802.352µs        | match      | /login                                   | 
+2016/03/13 16:40:59 [router.go:828][D] | GET        | /home                                    | 71.254924ms      | match      | /home                                    | 
+2016/03/13 16:41:01 [router.go:853][C] the request url is  /ajax 
+2016/03/13 16:41:01 [router.go:854][C] Handler crashed with error can't find templatefile in the path:ajaxcontroller/get.tpl 
+2016/03/13 16:41:01 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/13 16:41:01 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/13 16:41:01 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/03/13 16:41:01 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/03/13 16:41:01 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:784 
+2016/03/13 16:41:01 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/13 16:41:01 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/13 16:41:01 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/13 16:41:01 [router.go:828][D] | GET        | /ajax                                    | 186.742µs        | match      | /ajax                                    | 
+2016/03/13 16:42:07 [router.go:828][D] | GET        | /home                                    | 96.922831ms      | match      | /home                                    | 
+2016/03/13 16:42:09 [router.go:853][C] the request url is  /ajax 
+2016/03/13 16:42:09 [router.go:854][C] Handler crashed with error can't find templatefile in the path:ajaxcontroller/get.tpl 
+2016/03/13 16:42:09 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/13 16:42:09 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/13 16:42:09 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/03/13 16:42:09 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/03/13 16:42:09 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:784 
+2016/03/13 16:42:09 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/13 16:42:09 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/13 16:42:09 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/13 16:42:09 [router.go:828][D] | GET        | /ajax                                    | 167.626µs        | match      | /ajax                                    | 
+2016/03/13 16:42:55 [router.go:828][D] | GET        | /home                                    | 103.303906ms     | match      | /home                                    | 
+2016/03/13 16:42:57 [router.go:853][C] the request url is  /ajax 
+2016/03/13 16:42:57 [router.go:854][C] Handler crashed with error can't find templatefile in the path:ajaxcontroller/get.tpl 
+2016/03/13 16:42:57 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/13 16:42:57 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/13 16:42:57 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/03/13 16:42:57 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/03/13 16:42:57 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:784 
+2016/03/13 16:42:57 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/13 16:42:57 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/13 16:42:57 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/13 16:42:57 [router.go:828][D] | GET        | /ajax                                    | 169.587µs        | match      | /ajax                                    | 
+2016/03/13 16:43:27 [asm_386.s:2287][I] http server Running on :8080
+2016/03/13 16:43:34 [router.go:828][D] | GET        | /home                                    | 114.312349ms     | match      | /home                                    | 
+2016/03/13 16:43:36 [router.go:828][D] | GET        | /ajax                                    | 26.881974ms      | match      | /ajax                                    | 
+2016/03/13 16:43:38 [router.go:828][D] | GET        | /ajax                                    | 151.942µs        | match      | /ajax                                    | 
+2016/03/13 16:44:58 [router.go:828][D] | GET        | /home                                    | 85.178204ms      | match      | /home                                    | 
+2016/03/13 16:45:00 [router.go:828][D] | GET        | /ajax                                    | 988.604µs        | match      | /ajax                                    | 
+2016/03/13 16:45:02 [router.go:828][D] | GET        | /ajax                                    | 252.419µs        | match      | /ajax                                    | 
+2016/03/13 17:09:53 [router.go:828][D] | GET        | /home                                    | 111.290174ms     | match      | /home                                    | 
+2016/03/13 17:09:53 [router.go:828][D] | GET        | /ajax                                    | 547.972µs        | match      | /ajax                                    | 
+2016/03/13 17:09:53 [router.go:828][D] | GET        | /ajax                                    | 344.075µs        | match      | /ajax                                    | 
+2016/03/13 17:10:23 [router.go:828][D] | GET        | /home                                    | 79.820532ms      | match      | /home                                    | 
+2016/03/13 17:10:23 [router.go:828][D] | GET        | /ajax                                    | 618.061µs        | match      | /ajax                                    | 
+2016/03/13 17:10:23 [router.go:828][D] | GET        | /ajax                                    | 130.376µs        | match      | /ajax                                    | 
+2016/03/13 17:14:35 [router.go:828][D] | GET        | /home                                    | 111.89255ms      | match      | /home                                    | 
+2016/03/13 17:14:36 [router.go:828][D] | GET        | /ajax                                    | 22.036984ms      | match      | /ajax                                    | 
+2016/03/13 17:14:36 [router.go:828][D] | GET        | /ajax                                    | 172.038µs        | match      | /ajax                                    | 
+2016/03/13 20:49:13 [asm_386.s:2287][I] http server Running on :8080
+2016/03/13 20:53:35 [asm_386.s:2287][I] http server Running on :8080
+2016/03/13 20:53:48 [asm_386.s:2287][I] http server Running on :8080
+2016/03/13 20:53:54 [router.go:828][D] | GET        | /logout                                  | 977.82µs         | match      | /logout                                  | 
+2016/03/13 20:53:54 [router.go:828][D] | GET        | /login                                   | 1.703711ms       | match      | /login                                   | 
+2016/03/13 20:54:01 [router.go:828][D] | POST       | /login                                   | 1.348853ms       | match      | /login                                   | 
+2016/03/13 20:54:02 [router.go:828][D] | GET        | /home                                    | 77.712949ms      | match      | /home                                    | 
+2016/03/13 20:54:02 [router.go:828][D] | GET        | /ajax                                    | 1.000367ms       | match      | /ajax                                    | 
+2016/03/13 20:54:02 [router.go:828][D] | GET        | /ajax                                    | 709.226µs        | match      | /ajax                                    | 
+2016/03/13 20:54:02 [router.go:828][D] | GET        | /ajax                                    | 134.787µs        | match      | /ajax                                    | 
+2016/03/13 21:00:17 [asm_386.s:2287][I] http server Running on :8080
+2016/03/13 21:14:00 [router.go:828][D] | GET        | /logout                                  | 971.939µs        | match      | /logout                                  | 
+2016/03/13 21:14:00 [router.go:828][D] | GET        | /login                                   | 1.818893ms       | match      | /login                                   | 
+2016/03/13 21:14:09 [router.go:828][D] | POST       | /login                                   | 1.247885ms       | match      | /login                                   | 
+2016/03/13 21:14:10 [router.go:828][D] | GET        | /home                                    | 68.703768ms      | match      | /home                                    | 
+2016/03/13 21:14:10 [router.go:828][D] | GET        | /ajax                                    | 590.613µs        | match      | /ajax                                    | 
+2016/03/13 21:14:10 [router.go:828][D] | GET        | /ajax                                    | 3.158434ms       | match      | /ajax                                    | 
+2016/03/13 21:14:10 [router.go:828][D] | GET        | /ajax                                    | 203.406µs        | match      | /ajax                                    | 
+2016/03/13 21:14:51 [router.go:828][D] | GET        | /ajax                                    | 1.835067ms       | match      | /ajax                                    | 
+2016/03/13 21:37:32 [router.go:828][D] | GET        | /logout                                  | 137.238µs        | match      | /logout                                  | 
+2016/03/13 21:37:32 [router.go:828][D] | GET        | /login                                   | 1.912509ms       | match      | /login                                   | 
+2016/03/13 21:37:46 [router.go:828][D] | POST       | /login                                   | 566.596µs        | match      | /login                                   | 
+2016/03/13 21:37:46 [router.go:828][D] | GET        | /home                                    | 68.968932ms      | match      | /home                                    | 
+2016/03/13 21:37:46 [router.go:828][D] | GET        | /ajax                                    | 1.136135ms       | match      | /ajax                                    | 
+2016/03/13 21:37:46 [router.go:828][D] | GET        | /ajax                                    | 2.073273ms       | match      | /ajax                                    | 
+2016/03/13 21:37:46 [router.go:828][D] | GET        | /ajax                                    | 133.807µs        | match      | /ajax                                    | 
+2016/03/13 21:37:52 [router.go:828][D] | GET        | /ajax                                    | 1.511088ms       | match      | /ajax                                    | 
+2016/03/13 21:46:22 [router.go:828][D] | GET        | /logout                                  | 128.415µs        | match      | /logout                                  | 
+2016/03/13 21:46:23 [router.go:828][D] | GET        | /login                                   | 3.116771ms       | match      | /login                                   | 
+2016/03/13 21:47:03 [router.go:828][D] | POST       | /login                                   | 608.258µs        | match      | /login                                   | 
+2016/03/13 21:47:03 [router.go:828][D] | GET        | /home                                    | 64.351365ms      | match      | /home                                    | 
+2016/03/13 21:47:03 [router.go:828][D] | GET        | /ajax                                    | 366.131µs        | match      | /ajax                                    | 
+2016/03/13 21:47:03 [router.go:828][D] | GET        | /ajax                                    | 1.327777ms       | match      | /ajax                                    | 
+2016/03/13 21:47:04 [router.go:828][D] | GET        | /ajax                                    | 343.585µs        | match      | /ajax                                    | 
+2016/03/13 21:49:10 [asm_386.s:2287][I] http server Running on :8080
+2016/03/13 21:49:57 [router.go:828][D] | GET        | /logout                                  | 3.551522ms       | match      | /logout                                  | 
+2016/03/13 21:49:57 [router.go:828][D] | GET        | /login                                   | 1.703221ms       | match      | /login                                   | 
+2016/03/13 21:50:04 [router.go:828][D] | POST       | /login                                   | 1.091532ms       | match      | /login                                   | 
+2016/03/13 21:50:04 [router.go:828][D] | GET        | /home                                    | 72.495947ms      | match      | /home                                    | 
+2016/03/13 21:50:04 [router.go:828][D] | GET        | /ajax                                    | 1.675774ms       | match      | /ajax                                    | 
+2016/03/13 21:50:04 [router.go:828][D] | GET        | /ajax                                    | 1.233181ms       | match      | /ajax                                    | 
+2016/03/13 21:50:04 [router.go:828][D] | GET        | /ajax                                    | 133.807µs        | match      | /ajax                                    | 
+2016/03/13 21:50:11 [router.go:828][D] | GET        | /ajax                                    | 1.062124ms       | match      | /ajax                                    | 
+2016/03/13 21:50:14 [router.go:828][D] | GET        | /ajax                                    | 1.587059ms       | match      | /ajax                                    | 
+2016/03/13 21:50:16 [router.go:828][D] | GET        | /ajax                                    | 706.775µs        | match      | /ajax                                    | 
+2016/03/13 21:50:19 [router.go:828][D] | GET        | /ajax                                    | 707.756µs        | match      | /ajax                                    | 
+2016/03/13 21:50:33 [router.go:828][D] | GET        | /ajax                                    | 978.31µs         | match      | /ajax                                    | 
+2016/03/13 21:54:30 [router.go:828][D] | GET        | /ajax                                    | 795µs            | match      | /ajax                                    | 
+2016/03/13 21:56:32 [router.go:828][D] | GET        | /ajax                                    | 745.986µs        | match      | /ajax                                    | 
+2016/03/13 21:56:34 [router.go:828][D] | GET        | /ajax                                    | 2.583504ms       | match      | /ajax                                    | 
+2016/03/13 21:56:37 [router.go:828][D] | GET        | /home                                    | 78.55059ms       | match      | /home                                    | 
+2016/03/13 21:56:38 [router.go:828][D] | GET        | /ajax                                    | 753.338µs        | match      | /ajax                                    | 
+2016/03/13 21:56:38 [router.go:828][D] | GET        | /ajax                                    | 1.251316ms       | match      | /ajax                                    | 
+2016/03/13 21:56:38 [router.go:828][D] | GET        | /ajax                                    | 542.09µs         | match      | /ajax                                    | 
+2016/03/13 21:56:42 [router.go:828][D] | GET        | /ajax                                    | 1.696849ms       | match      | /ajax                                    | 
+2016/03/13 21:56:44 [router.go:828][D] | GET        | /ajax                                    | 815.096µs        | match      | /ajax                                    | 
+2016/03/13 21:56:45 [router.go:828][D] | GET        | /ajax                                    | 755.789µs        | match      | /ajax                                    | 
+2016/03/13 21:56:47 [router.go:828][D] | GET        | /ajax                                    | 1.506677ms       | match      | /ajax                                    | 
+2016/03/13 21:56:48 [router.go:828][D] | GET        | /ajax                                    | 645.508µs        | match      | /ajax                                    | 
+2016/03/13 21:56:49 [router.go:828][D] | GET        | /ajax                                    | 784.217µs        | match      | /ajax                                    | 
+2016/03/13 21:56:51 [router.go:828][D] | GET        | /ajax                                    | 1.144467ms       | match      | /ajax                                    | 
+2016/03/13 21:56:52 [router.go:828][D] | GET        | /ajax                                    | 702.855µs        | match      | /ajax                                    | 
+2016/03/13 21:56:53 [router.go:828][D] | GET        | /ajax                                    | 1.713514ms       | match      | /ajax                                    | 
+2016/03/13 21:56:53 [router.go:828][D] | GET        | /ajax                                    | 858.227µs        | match      | /ajax                                    | 
+2016/03/13 21:56:54 [router.go:828][D] | GET        | /ajax                                    | 586.693µs        | match      | /ajax                                    | 
+2016/03/13 21:56:55 [router.go:828][D] | GET        | /ajax                                    | 806.273µs        | match      | /ajax                                    | 
+2016/03/13 21:56:56 [router.go:828][D] | GET        | /ajax                                    | 764.611µs        | match      | /ajax                                    | 
+2016/03/13 22:02:12 [router.go:828][D] | GET        | /ajax                                    | 787.647µs        | match      | /ajax                                    | 
+2016/03/13 22:02:14 [router.go:828][D] | GET        | /ajax                                    | 591.594µs        | match      | /ajax                                    | 
+2016/03/13 22:02:15 [router.go:828][D] | GET        | /ajax                                    | 703.344µs        | match      | /ajax                                    | 
+2016/03/13 22:02:15 [router.go:828][D] | GET        | /ajax                                    | 679.818µs        | match      | /ajax                                    | 
+2016/03/13 22:02:17 [router.go:828][D] | GET        | /ajax                                    | 701.875µs        | match      | /ajax                                    | 
+2016/03/13 22:04:15 [router.go:828][D] | GET        | /ajax                                    | 831.27µs         | match      | /ajax                                    | 
+2016/03/13 22:04:16 [router.go:828][D] | GET        | /ajax                                    | 813.625µs        | match      | /ajax                                    | 
+2016/03/13 22:04:17 [router.go:828][D] | GET        | /ajax                                    | 610.709µs        | match      | /ajax                                    | 
+2016/03/13 22:04:18 [router.go:828][D] | GET        | /ajax                                    | 2.069842ms       | match      | /ajax                                    | 
+2016/03/13 22:04:19 [router.go:828][D] | GET        | /ajax                                    | 1.08418ms        | match      | /ajax                                    | 
+2016/03/13 22:04:20 [router.go:828][D] | GET        | /ajax                                    | 646.489µs        | match      | /ajax                                    | 
+2016/03/13 22:04:22 [router.go:828][D] | GET        | /ajax                                    | 817.547µs        | match      | /ajax                                    | 
+2016/03/13 22:04:22 [router.go:828][D] | GET        | /ajax                                    | 819.997µs        | match      | /ajax                                    | 
+2016/03/13 22:04:23 [router.go:828][D] | GET        | /ajax                                    | 791.569µs        | match      | /ajax                                    | 
+2016/03/13 22:04:27 [router.go:828][D] | POST       | /ajax                                    | 293.591µs        | match      | /ajax                                    | 
+2016/03/15 10:29:08 [asm_386.s:2287][I] http server Running on :8080
+2016/03/15 10:30:08 [router.go:828][D] | GET        | /                                        | 97.794219ms      | match      | /                                        | 
+2016/03/15 10:30:08 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/03/15 10:30:09 [router.go:828][D] | GET        | /ajax                                    | 1.917428ms       | match      | /ajax                                    | 
+2016/03/15 10:30:09 [router.go:828][D] | GET        | /ajax                                    | 1.229623ms       | match      | /ajax                                    | 
+2016/03/15 10:30:09 [router.go:828][D] | GET        | /ajax                                    | 146.478µs        | match      | /ajax                                    | 
+2016/03/15 10:30:17 [router.go:828][D] | GET        | /ajax                                    | 741.203µs        | match      | /ajax                                    | 
+2016/03/15 10:30:18 [router.go:828][D] | GET        | /ajax                                    | 704.461µs        | match      | /ajax                                    | 
+2016/03/15 10:30:19 [router.go:828][D] | GET        | /ajax                                    | 608.933µs        | match      | /ajax                                    | 
+2016/03/15 10:30:22 [router.go:828][D] | GET        | /ajax                                    | 702.502µs        | match      | /ajax                                    | 
+2016/03/15 10:30:48 [asm_386.s:2287][I] http server Running on :8080
+2016/03/15 10:30:52 [asm_386.s:2287][I] http server Running on :8080
+2016/03/15 10:35:02 [router.go:828][D] | GET        | /ajax                                    | 2.935416ms       | match      | /ajax                                    | 
+2016/03/15 10:39:31 [router.go:828][D] | GET        | /                                        | 66.757328ms      | match      | /                                        | 
+2016/03/15 10:39:32 [router.go:828][D] | GET        | /ajax                                    | 611.198µs        | match      | /ajax                                    | 
+2016/03/15 10:39:32 [router.go:828][D] | GET        | /ajax                                    | 672.955µs        | match      | /ajax                                    | 
+2016/03/15 10:39:32 [router.go:828][D] | GET        | /ajax                                    | 98.517µs         | match      | /ajax                                    | 
+2016/03/15 10:39:38 [router.go:828][D] | GET        | /ajax                                    | 711.676µs        | match      | /ajax                                    | 
+2016/03/15 10:39:38 [router.go:828][D] | GET        | /ajax                                    | 704.323µs        | match      | /ajax                                    | 
+2016/03/15 10:39:39 [router.go:828][D] | GET        | /ajax                                    | 685.209µs        | match      | /ajax                                    | 
+2016/03/15 10:39:41 [router.go:828][D] | GET        | /ajax                                    | 1.582155ms       | match      | /ajax                                    | 
+2016/03/15 10:39:52 [router.go:828][D] | POST       | /ajax                                    | 232.814µs        | match      | /ajax                                    | 
+2016/03/15 10:39:56 [router.go:828][D] | GET        | /ajax                                    | 715.107µs        | match      | /ajax                                    | 
+2016/03/15 10:39:56 [router.go:828][D] | GET        | /ajax                                    | 697.462µs        | match      | /ajax                                    | 
+2016/03/15 10:39:59 [router.go:828][D] | GET        | /login                                   | 1.667928ms       | match      | /login                                   | 
+2016/03/15 10:40:09 [router.go:828][D] | POST       | /login                                   | 3.315762ms       | match      | /login                                   | 
+2016/03/15 10:40:09 [router.go:828][D] | GET        | /home                                    | 61.439856ms      | match      | /home                                    | 
+2016/03/15 10:40:09 [router.go:828][D] | GET        | /ajax                                    | 1.614994ms       | match      | /ajax                                    | 
+2016/03/15 10:40:09 [router.go:828][D] | GET        | /ajax                                    | 845.482µs        | match      | /ajax                                    | 
+2016/03/15 10:40:09 [router.go:828][D] | GET        | /ajax                                    | 234.775µs        | match      | /ajax                                    | 
+2016/03/15 10:40:21 [router.go:828][D] | POST       | /ajax                                    | 49.159531ms      | match      | /ajax                                    | 
+2016/03/15 10:40:22 [router.go:828][D] | GET        | /ajax                                    | 686.679µs        | match      | /ajax                                    | 
+2016/03/15 10:40:22 [router.go:828][D] | GET        | /ajax                                    | 1.739978ms       | match      | /ajax                                    | 
+2016/03/15 10:40:23 [router.go:828][D] | GET        | /ajax                                    | 1.141033ms       | match      | /ajax                                    | 
+2016/03/15 10:40:24 [router.go:828][D] | GET        | /ajax                                    | 720.498µs        | match      | /ajax                                    | 
+2016/03/15 10:40:24 [router.go:828][D] | GET        | /ajax                                    | 738.143µs        | match      | /ajax                                    | 
+2016/03/15 10:40:27 [router.go:828][D] | GET        | /ajax                                    | 900.377µs        | match      | /ajax                                    | 
+2016/03/15 10:40:35 [router.go:828][D] | GET        | /ajax                                    | 782.745µs        | match      | /ajax                                    | 
+2016/03/15 10:40:36 [router.go:828][D] | GET        | /ajax                                    | 728.34µs         | match      | /ajax                                    | 
+2016/03/15 10:41:41 [router.go:828][D] | GET        | /home                                    | 58.582861ms      | match      | /home                                    | 
+2016/03/15 10:41:41 [router.go:828][D] | GET        | /ajax                                    | 900.868µs        | match      | /ajax                                    | 
+2016/03/15 10:41:41 [router.go:828][D] | GET        | /ajax                                    | 946.94µs         | match      | /ajax                                    | 
+2016/03/15 10:41:41 [router.go:828][D] | GET        | /ajax                                    | 130.866µs        | match      | /ajax                                    | 
+2016/03/15 10:44:31 [router.go:828][D] | GET        | /home                                    | 60.262062ms      | match      | /home                                    | 
+2016/03/15 10:44:31 [router.go:828][D] | GET        | /ajax                                    | 1.863002ms       | match      | /ajax                                    | 
+2016/03/15 10:44:31 [router.go:828][D] | GET        | /ajax                                    | 1.70861ms        | match      | /ajax                                    | 
+2016/03/15 10:44:31 [router.go:828][D] | GET        | /ajax                                    | 133.316µs        | match      | /ajax                                    | 
+2016/03/15 10:44:34 [router.go:828][D] | GET        | /www.baidu.com                           | 1.320913ms       | notmatch   | 
+2016/03/15 10:44:58 [router.go:828][D] | GET        | /home                                    | 73.966719ms      | match      | /home                                    | 
+2016/03/15 10:44:58 [router.go:828][D] | GET        | /ajax                                    | 764.12µs         | match      | /ajax                                    | 
+2016/03/15 10:44:58 [router.go:828][D] | GET        | /ajax                                    | 620.02µs         | match      | /ajax                                    | 
+2016/03/15 10:44:58 [router.go:828][D] | GET        | /ajax                                    | 124.985µs        | match      | /ajax                                    | 
+2016/03/15 10:51:34 [asm_386.s:2287][I] http server Running on :8080
+2016/03/15 10:51:37 [asm_386.s:2287][I] http server Running on :8080
+2016/03/18 20:35:29 [asm_386.s:2287][I] http server Running on :8080
+2016/03/18 21:17:49 [asm_386.s:2287][I] http server Running on :8080
+2016/03/18 21:20:40 [router.go:828][D] | GET        | /                                        | 87.432681ms      | match      | /                                        | 
+2016/03/18 21:20:41 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/03/18 21:20:43 [router.go:828][D] | GET        | /ajax                                    | 1.862001ms       | match      | /ajax                                    | 
+2016/03/18 21:20:43 [router.go:828][D] | GET        | /ajax                                    | 1.548808ms       | match      | /ajax                                    | 
+2016/03/18 21:20:43 [router.go:828][D] | GET        | /ajax                                    | 102.927µs        | match      | /ajax                                    | 
+2016/03/18 21:20:48 [router.go:853][C] the request url is  /ajax 
+2016/03/18 21:20:48 [router.go:854][C] Handler crashed with error can't find templatefile in the path:ajaxcontroller/get.tpl 
+2016/03/18 21:20:48 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/18 21:20:48 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/18 21:20:48 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/03/18 21:20:48 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/03/18 21:20:48 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:784 
+2016/03/18 21:20:48 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/18 21:20:48 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/18 21:20:48 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/18 21:22:41 [asm_386.s:2287][I] http server Running on :8080
+2016/03/18 21:23:02 [asm_386.s:2287][I] http server Running on :8080
+2016/03/18 21:23:06 [asm_386.s:2287][I] http server Running on :8080
+2016/03/18 21:23:08 [router.go:828][D] | GET        | /                                        | 89.978401ms      | match      | /                                        | 
+2016/03/18 21:23:08 [router.go:828][D] | GET        | /ajax                                    | 1.593899ms       | match      | /ajax                                    | 
+2016/03/18 21:23:09 [router.go:828][D] | GET        | /ajax                                    | 995.94µs         | match      | /ajax                                    | 
+2016/03/18 21:23:09 [router.go:828][D] | GET        | /ajax                                    | 122.533µs        | match      | /ajax                                    | 
+2016/03/18 21:23:15 [router.go:853][C] the request url is  /ajax 
+2016/03/18 21:23:15 [router.go:854][C] Handler crashed with error can't find templatefile in the path:ajaxcontroller/get.tpl 
+2016/03/18 21:23:15 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/18 21:23:15 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/18 21:23:15 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/03/18 21:23:15 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/03/18 21:23:15 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:784 
+2016/03/18 21:23:15 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/18 21:23:15 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/18 21:23:15 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/18 21:24:05 [asm_386.s:2287][I] http server Running on :8080
+2016/03/18 21:24:13 [router.go:828][D] | GET        | /                                        | 109.025326ms     | match      | /                                        | 
+2016/03/18 21:24:13 [router.go:828][D] | GET        | /ajax                                    | 878.802µs        | match      | /ajax                                    | 
+2016/03/18 21:24:13 [router.go:828][D] | GET        | /ajax                                    | 1.411083ms       | match      | /ajax                                    | 
+2016/03/18 21:24:14 [router.go:828][D] | GET        | /ajax                                    | 105.378µs        | match      | /ajax                                    | 
+2016/03/18 21:24:18 [router.go:828][D] | GET        | /ajax                                    | 53.962742ms      | match      | /ajax                                    | 
+2016/03/18 21:24:18 [router.go:828][D] | GET        | /                                        | 65.656726ms      | match      | /                                        | 
+2016/03/18 21:24:19 [router.go:828][D] | GET        | /ajax                                    | 676.378µs        | match      | /ajax                                    | 
+2016/03/18 21:24:19 [router.go:828][D] | GET        | /ajax                                    | 3.183389ms       | match      | /ajax                                    | 
+2016/03/18 21:24:19 [router.go:828][D] | GET        | /ajax                                    | 142.627µs        | match      | /ajax                                    | 
+2016/03/18 21:24:23 [router.go:828][D] | GET        | /ajax                                    | 1.730155ms       | match      | /ajax                                    | 
+2016/03/18 21:24:24 [router.go:853][C] the request url is  /ajax 
+2016/03/18 21:24:24 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/18 21:24:24 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/18 21:24:24 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/18 21:24:24 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/18 21:24:24 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/18 21:24:24 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/18 21:24:24 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/18 21:24:24 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/18 21:24:24 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/18 21:24:24 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/18 21:24:26 [router.go:828][D] | GET        | /ajax                                    | 708.726µs        | match      | /ajax                                    | 
+2016/03/18 21:24:26 [router.go:828][D] | GET        | /ajax                                    | 683.24µs         | match      | /ajax                                    | 
+2016/03/18 21:24:28 [router.go:828][D] | GET        | /ajax                                    | 726.371µs        | match      | /ajax                                    | 
+2016/03/18 21:24:29 [router.go:853][C] the request url is  /ajax 
+2016/03/18 21:24:29 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/18 21:24:29 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/18 21:24:29 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/18 21:24:29 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/18 21:24:29 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/18 21:24:29 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/18 21:24:29 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/18 21:24:29 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/18 21:24:29 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/18 21:24:29 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/18 21:26:58 [router.go:828][D] | GET        | /ajax                                    | 48.875198ms      | match      | /ajax                                    | 
+2016/03/18 21:26:58 [router.go:828][D] | GET        | /                                        | 64.907813ms      | match      | /                                        | 
+2016/03/18 21:26:58 [router.go:828][D] | GET        | /ajax                                    | 2.39477ms        | match      | /ajax                                    | 
+2016/03/18 21:26:58 [router.go:828][D] | GET        | /ajax                                    | 881.251µs        | match      | /ajax                                    | 
+2016/03/18 21:26:58 [router.go:828][D] | GET        | /ajax                                    | 93.614µs         | match      | /ajax                                    | 
+2016/03/18 21:27:03 [router.go:828][D] | GET        | /ajax                                    | 44.07193ms       | match      | /ajax                                    | 
+2016/03/18 21:27:03 [router.go:828][D] | GET        | /                                        | 71.722577ms      | match      | /                                        | 
+2016/03/18 21:27:03 [router.go:828][D] | GET        | /ajax                                    | 1.530184ms       | match      | /ajax                                    | 
+2016/03/18 21:27:03 [router.go:828][D] | GET        | /ajax                                    | 2.48152ms        | match      | /ajax                                    | 
+2016/03/18 21:27:03 [router.go:828][D] | GET        | /ajax                                    | 94.105µs         | match      | /ajax                                    | 
+2016/03/18 21:27:06 [router.go:828][D] | GET        | /ajax                                    | 41.156639ms      | match      | /ajax                                    | 
+2016/03/18 21:27:06 [router.go:828][D] | GET        | /                                        | 80.549314ms      | match      | /                                        | 
+2016/03/18 21:27:06 [router.go:828][D] | GET        | /ajax                                    | 1.464016ms       | match      | /ajax                                    | 
+2016/03/18 21:27:06 [router.go:828][D] | GET        | /ajax                                    | 2.919695ms       | match      | /ajax                                    | 
+2016/03/18 21:27:06 [router.go:828][D] | GET        | /ajax                                    | 117.14µs         | match      | /ajax                                    | 
+2016/03/18 21:27:21 [router.go:828][D] | GET        | /ajax                                    | 43.187738ms      | match      | /ajax                                    | 
+2016/03/18 21:27:22 [router.go:828][D] | GET        | /                                        | 65.949333ms      | match      | /                                        | 
+2016/03/18 21:27:22 [router.go:828][D] | GET        | /ajax                                    | 794.499µs        | match      | /ajax                                    | 
+2016/03/18 21:27:22 [router.go:828][D] | GET        | /ajax                                    | 916.051µs        | match      | /ajax                                    | 
+2016/03/18 21:27:22 [router.go:828][D] | GET        | /ajax                                    | 137.726µs        | match      | /ajax                                    | 
+2016/03/18 21:27:25 [router.go:828][D] | GET        | /ajax                                    | 45.073257ms      | match      | /ajax                                    | 
+2016/03/18 21:27:26 [router.go:828][D] | GET        | /                                        | 75.55587ms       | match      | /                                        | 
+2016/03/18 21:27:26 [router.go:828][D] | GET        | /ajax                                    | 688.632µs        | match      | /ajax                                    | 
+2016/03/18 21:27:26 [router.go:828][D] | GET        | /ajax                                    | 756.27µs         | match      | /ajax                                    | 
+2016/03/18 21:27:44 [router.go:828][D] | POST       | /ajax                                    | 164.684µs        | match      | /ajax                                    | 
+2016/03/18 21:27:59 [router.go:828][D] | GET        | /logout                                  | 93.615µs         | match      | /logout                                  | 
+2016/03/18 21:27:59 [router.go:828][D] | GET        | /login                                   | 5.272316ms       | match      | /login                                   | 
+2016/03/18 21:28:06 [router.go:828][D] | POST       | /login                                   | 1.435098ms       | match      | /login                                   | 
+2016/03/18 21:28:06 [router.go:828][D] | GET        | /home                                    | 68.166193ms      | match      | /home                                    | 
+2016/03/18 21:28:06 [router.go:828][D] | GET        | /ajax                                    | 928.305µs        | match      | /ajax                                    | 
+2016/03/18 21:28:06 [router.go:828][D] | GET        | /ajax                                    | 584.724µs        | match      | /ajax                                    | 
+2016/03/18 21:28:27 [router.go:828][D] | GET        | /home                                    | 87.296916ms      | match      | /home                                    | 
+2016/03/18 21:28:27 [router.go:828][D] | GET        | /ajax                                    | 444.548µs        | match      | /ajax                                    | 
+2016/03/18 21:28:27 [router.go:828][D] | GET        | /ajax                                    | 500.422µs        | match      | /ajax                                    | 
+2016/03/18 21:28:38 [router.go:828][D] | GET        | /logout                                  | 83.321µs         | match      | /logout                                  | 
+2016/03/18 21:28:38 [router.go:828][D] | GET        | /login                                   | 6.302573ms       | match      | /login                                   | 
+2016/03/18 21:28:45 [router.go:828][D] | POST       | /login                                   | 770.482µs        | match      | /login                                   | 
+2016/03/18 21:28:45 [router.go:828][D] | GET        | /home                                    | 69.194972ms      | match      | /home                                    | 
+2016/03/18 21:28:45 [router.go:828][D] | GET        | /ajax                                    | 730.783µs        | match      | /ajax                                    | 
+2016/03/18 21:28:45 [router.go:828][D] | GET        | /ajax                                    | 522.968µs        | match      | /ajax                                    | 
+2016/03/18 21:29:55 [router.go:828][D] | GET        | /logout                                  | 85.283µs         | match      | /logout                                  | 
+2016/03/18 21:29:55 [router.go:828][D] | GET        | /login                                   | 3.062815ms       | match      | /login                                   | 
+2016/03/18 21:30:06 [router.go:828][D] | POST       | /login                                   | 564.629µs        | match      | /login                                   | 
+2016/03/18 21:30:06 [router.go:828][D] | GET        | /home                                    | 66.801669ms      | match      | /home                                    | 
+2016/03/18 21:30:06 [router.go:828][D] | GET        | /ajax                                    | 498.462µs        | match      | /ajax                                    | 
+2016/03/18 21:30:06 [router.go:828][D] | GET        | /ajax                                    | 841.552µs        | match      | /ajax                                    | 
+2016/03/18 21:31:22 [router.go:828][D] | GET        | /                                        | 107.460342ms     | match      | /                                        | 
+2016/03/18 21:31:22 [router.go:828][D] | GET        | /ajax                                    | 269.081µs        | match      | /ajax                                    | 
+2016/03/18 21:39:56 [router.go:828][D] | GET        | /                                        | 93.788188ms      | match      | /                                        | 
+2016/03/18 21:39:57 [router.go:828][D] | GET        | /ajax                                    | 601.388µs        | match      | /ajax                                    | 
+2016/03/18 21:39:57 [router.go:828][D] | GET        | /ajax                                    | 617.562µs        | match      | /ajax                                    | 
+2016/03/18 21:40:55 [router.go:828][D] | GET        | /                                        | 116.555178ms     | match      | /                                        | 
+2016/03/18 21:40:55 [router.go:828][D] | GET        | /ajax                                    | 361.225µs        | match      | /ajax                                    | 
+2016/03/18 21:40:55 [router.go:853][C] the request url is  /ajax 
+2016/03/18 21:40:55 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/18 21:40:55 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/18 21:40:55 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/18 21:40:55 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/18 21:40:55 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/18 21:40:55 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/18 21:40:55 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/18 21:40:55 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/18 21:40:55 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/18 21:40:55 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/18 21:40:55 [router.go:828][D] | GET        | /ajax                                    | 125.473µs        | match      | /ajax                                    | 
+2016/03/18 21:55:04 [router.go:828][D] | GET        | /                                        | 86.248532ms      | match      | /                                        | 
+2016/03/18 21:55:04 [router.go:828][D] | GET        | /ajax                                    | 442.097µs        | match      | /ajax                                    | 
+2016/03/18 21:55:04 [router.go:853][C] the request url is  /ajax 
+2016/03/18 21:55:04 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/18 21:55:04 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/18 21:55:04 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/18 21:55:04 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/18 21:55:04 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/18 21:55:04 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/18 21:55:04 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/18 21:55:04 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/18 21:55:04 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/18 21:55:04 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/18 21:55:04 [router.go:828][D] | GET        | /ajax                                    | 166.154µs        | match      | /ajax                                    | 
+2016/03/18 21:55:10 [router.go:828][D] | GET        | /                                        | 106.188943ms     | match      | /                                        | 
+2016/03/18 21:55:10 [router.go:828][D] | GET        | /ajax                                    | 2.592294ms       | match      | /ajax                                    | 
+2016/03/18 21:55:10 [router.go:828][D] | GET        | /ajax                                    | 503.362µs        | match      | /ajax                                    | 
+2016/03/18 21:55:25 [router.go:828][D] | GET        | /                                        | 84.722266ms      | match      | /                                        | 
+2016/03/18 21:55:26 [router.go:828][D] | GET        | /ajax                                    | 800.871µs        | match      | /ajax                                    | 
+2016/03/18 21:55:26 [router.go:853][C] the request url is  /ajax 
+2016/03/18 21:55:26 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/18 21:55:26 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/18 21:55:26 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/18 21:55:26 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/18 21:55:26 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/18 21:55:26 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/18 21:55:26 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/18 21:55:26 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/18 21:55:26 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/18 21:55:26 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/18 21:55:26 [router.go:828][D] | GET        | /ajax                                    | 219.577µs        | match      | /ajax                                    | 
+2016/03/18 21:58:24 [router.go:828][D] | GET        | /                                        | 83.185708ms      | match      | /                                        | 
+2016/03/18 21:58:24 [router.go:828][D] | GET        | /ajax                                    | 456.801µs        | match      | /ajax                                    | 
+2016/03/18 21:58:24 [router.go:828][D] | GET        | /ajax                                    | 1.186604ms       | match      | /ajax                                    | 
+2016/03/18 21:58:56 [router.go:828][D] | GET        | /                                        | 92.452097ms      | match      | /                                        | 
+2016/03/18 21:58:56 [router.go:828][D] | GET        | /ajax                                    | 448.958µs        | match      | /ajax                                    | 
+2016/03/18 21:58:56 [router.go:828][D] | GET        | /ajax                                    | 1.170918ms       | match      | /ajax                                    | 
+2016/03/18 22:00:27 [router.go:828][D] | GET        | /                                        | 106.421759ms     | match      | /                                        | 
+2016/03/18 22:00:27 [router.go:828][D] | GET        | /ajax                                    | 1.0278ms         | match      | /ajax                                    | 
+2016/03/18 22:00:27 [router.go:828][D] | GET        | /ajax                                    | 756.761µs        | match      | /ajax                                    | 
+2016/03/18 22:00:29 [router.go:828][D] | GET        | /ajax                                    | 357.304µs        | match      | /ajax                                    | 
+2016/03/18 22:00:58 [router.go:828][D] | GET        | /                                        | 96.309405ms      | match      | /                                        | 
+2016/03/18 22:00:58 [router.go:828][D] | GET        | /ajax                                    | 449.939µs        | match      | /ajax                                    | 
+2016/03/18 22:00:58 [router.go:828][D] | GET        | /ajax                                    | 479.346µs        | match      | /ajax                                    | 
+2016/03/18 22:01:00 [router.go:828][D] | GET        | /ajax                                    | 166.644µs        | match      | /ajax                                    | 
+2016/03/18 22:03:22 [router.go:828][D] | GET        | /                                        | 80.122892ms      | match      | /                                        | 
+2016/03/18 22:03:23 [router.go:828][D] | GET        | /ajax                                    | 987.121µs        | match      | /ajax                                    | 
+2016/03/18 22:03:23 [router.go:828][D] | GET        | /ajax                                    | 929.285µs        | match      | /ajax                                    | 
+2016/03/18 22:06:34 [router.go:828][D] | GET        | /                                        | 97.879789ms      | match      | /                                        | 
+2016/03/18 22:06:34 [router.go:828][D] | GET        | /ajax                                    | 1.177781ms       | match      | /ajax                                    | 
+2016/03/18 22:06:34 [router.go:828][D] | GET        | /ajax                                    | 1.031721ms       | match      | /ajax                                    | 
+2016/03/18 22:08:57 [router.go:828][D] | GET        | /                                        | 76.752276ms      | match      | /                                        | 
+2016/03/18 22:08:57 [router.go:828][D] | GET        | /ajax                                    | 408.278µs        | match      | /ajax                                    | 
+2016/03/18 22:08:57 [router.go:828][D] | GET        | /ajax                                    | 508.754µs        | match      | /ajax                                    | 
+2016/03/18 22:09:13 [router.go:828][D] | GET        | /                                        | 101.79984ms      | match      | /                                        | 
+2016/03/18 22:09:13 [router.go:828][D] | GET        | /ajax                                    | 571.491µs        | match      | /ajax                                    | 
+2016/03/18 22:09:13 [router.go:828][D] | GET        | /ajax                                    | 505.323µs        | match      | /ajax                                    | 
+2016/03/18 22:09:16 [router.go:828][D] | GET        | /ajax                                    | 730.783µs        | match      | /ajax                                    | 
+2016/03/18 22:12:23 [router.go:828][D] | GET        | /                                        | 99.29675ms       | match      | /                                        | 
+2016/03/18 22:12:23 [router.go:828][D] | GET        | /ajax                                    | 361.226µs        | match      | /ajax                                    | 
+2016/03/18 22:12:23 [router.go:828][D] | GET        | /ajax                                    | 665.595µs        | match      | /ajax                                    | 
+2016/03/18 22:12:25 [router.go:828][D] | GET        | /ajax                                    | 167.625µs        | match      | /ajax                                    | 
+2016/03/18 22:12:44 [router.go:828][D] | GET        | /                                        | 108.650866ms     | match      | /                                        | 
+2016/03/18 22:12:44 [router.go:828][D] | GET        | /ajax                                    | 907.72µs         | match      | /ajax                                    | 
+2016/03/18 22:12:44 [router.go:828][D] | GET        | /ajax                                    | 819.006µs        | match      | /ajax                                    | 
+2016/03/18 22:16:25 [router.go:828][D] | GET        | /                                        | 81.287933ms      | match      | /                                        | 
+2016/03/18 22:16:26 [router.go:828][D] | GET        | /ajax                                    | 447.489µs        | match      | /ajax                                    | 
+2016/03/18 22:16:26 [router.go:828][D] | GET        | /ajax                                    | 497.971µs        | match      | /ajax                                    | 
+2016/03/18 22:18:28 [router.go:828][D] | GET        | /                                        | 93.423042ms      | match      | /                                        | 
+2016/03/18 22:18:28 [router.go:828][D] | GET        | /ajax                                    | 1.277768ms       | match      | /ajax                                    | 
+2016/03/18 22:18:28 [router.go:828][D] | GET        | /ajax                                    | 592.076µs        | match      | /ajax                                    | 
+2016/03/18 22:18:30 [router.go:828][D] | GET        | /ajax                                    | 242.124µs        | match      | /ajax                                    | 
+2016/03/18 22:19:09 [router.go:828][D] | GET        | /                                        | 105.819878ms     | match      | /                                        | 
+2016/03/18 22:19:09 [router.go:828][D] | GET        | /ajax                                    | 1.022409ms       | match      | /ajax                                    | 
+2016/03/18 22:19:09 [router.go:828][D] | GET        | /ajax                                    | 632.757µs        | match      | /ajax                                    | 
+2016/03/18 22:19:10 [router.go:828][D] | GET        | /ajax                                    | 306.82µs         | match      | /ajax                                    | 
+2016/03/18 22:19:38 [router.go:828][D] | GET        | /                                        | 95.591364ms      | match      | /                                        | 
+2016/03/18 22:19:39 [router.go:828][D] | GET        | /ajax                                    | 1.029762ms       | match      | /ajax                                    | 
+2016/03/18 22:19:39 [router.go:828][D] | GET        | /ajax                                    | 521.007µs        | match      | /ajax                                    | 
+2016/03/18 22:25:00 [router.go:828][D] | GET        | /                                        | 93.730354ms      | match      | /                                        | 
+2016/03/18 22:25:01 [router.go:828][D] | GET        | /ajax                                    | 1.039564ms       | match      | /ajax                                    | 
+2016/03/18 22:25:01 [router.go:828][D] | GET        | /ajax                                    | 702.845µs        | match      | /ajax                                    | 
+2016/03/18 22:25:02 [router.go:828][D] | GET        | /ajax                                    | 130.865µs        | match      | /ajax                                    | 
+2016/03/18 22:27:46 [router.go:828][D] | GET        | /                                        | 100.255933ms     | match      | /                                        | 
+2016/03/18 22:27:47 [router.go:828][D] | GET        | /ajax                                    | 1.607623ms       | match      | /ajax                                    | 
+2016/03/18 22:27:47 [router.go:828][D] | GET        | /ajax                                    | 520.027µs        | match      | /ajax                                    | 
+2016/03/18 22:28:59 [router.go:828][D] | GET        | /                                        | 87.020972ms      | match      | /                                        | 
+2016/03/18 22:28:59 [router.go:828][D] | GET        | /ajax                                    | 1.671339ms       | match      | /ajax                                    | 
+2016/03/18 22:28:59 [router.go:828][D] | GET        | /ajax                                    | 680.299µs        | match      | /ajax                                    | 
+2016/03/18 22:30:45 [router.go:828][D] | GET        | /                                        | 97.445042ms      | match      | /                                        | 
+2016/03/18 22:30:46 [router.go:828][D] | GET        | /ajax                                    | 495.03µs         | match      | /ajax                                    | 
+2016/03/18 22:30:46 [router.go:828][D] | GET        | /ajax                                    | 1.594881ms       | match      | /ajax                                    | 
+2016/03/18 22:31:16 [router.go:828][D] | GET        | /                                        | 108.877792ms     | match      | /                                        | 
+2016/03/18 22:31:16 [router.go:828][D] | GET        | /ajax                                    | 777.836µs        | match      | /ajax                                    | 
+2016/03/18 22:31:16 [router.go:828][D] | GET        | /ajax                                    | 708.727µs        | match      | /ajax                                    | 
+2016/03/21 09:51:03 [asm_386.s:2287][I] http server Running on :8080
+2016/03/21 09:51:06 [router.go:828][D] | GET        | /                                        | 93.178952ms      | match      | /                                        | 
+2016/03/21 09:51:08 [router.go:828][D] | GET        | /ajax                                    | 1.036623ms       | match      | /ajax                                    | 
+2016/03/21 09:51:08 [router.go:828][D] | GET        | /ajax                                    | 665.106µs        | match      | /ajax                                    | 
+2016/03/21 09:51:09 [router.go:828][D] | GET        | /ajax                                    | 195.072µs        | match      | /ajax                                    | 
+2016/03/21 09:53:30 [router.go:828][D] | GET        | /                                        | 100.988676ms     | match      | /                                        | 
+2016/03/21 09:53:30 [router.go:828][D] | GET        | /ajax                                    | 1.066521ms       | match      | /ajax                                    | 
+2016/03/21 09:53:30 [router.go:828][D] | GET        | /ajax                                    | 982.22µs         | match      | /ajax                                    | 
+2016/03/21 09:53:32 [router.go:828][D] | GET        | /ajax                                    | 342.6µs          | match      | /ajax                                    | 
+2016/03/21 09:53:36 [router.go:828][D] | GET        | /logout                                  | 92.635µs         | match      | /logout                                  | 
+2016/03/21 09:53:36 [router.go:828][D] | GET        | /login                                   | 1.673792ms       | match      | /login                                   | 
+2016/03/21 09:53:42 [router.go:828][D] | POST       | /login                                   | 1.075344ms       | match      | /login                                   | 
+2016/03/21 09:53:43 [router.go:828][D] | GET        | /home                                    | 69.054795ms      | match      | /home                                    | 
+2016/03/21 09:53:43 [router.go:828][D] | GET        | /ajax                                    | 891.055µs        | match      | /ajax                                    | 
+2016/03/21 09:53:43 [router.go:828][D] | GET        | /ajax                                    | 937.617µs        | match      | /ajax                                    | 
+2016/03/21 09:53:44 [router.go:828][D] | GET        | /ajax                                    | 276.922µs        | match      | /ajax                                    | 
+2016/03/21 10:05:20 [router.go:828][D] | GET        | /home                                    | 85.583428ms      | match      | /home                                    | 
+2016/03/21 10:05:20 [router.go:828][D] | GET        | /ajax                                    | 382.301µs        | match      | /ajax                                    | 
+2016/03/21 10:05:20 [router.go:828][D] | GET        | /ajax                                    | 494.54µs         | match      | /ajax                                    | 
+2016/03/21 10:07:10 [router.go:828][D] | GET        | /home                                    | 68.222558ms      | match      | /home                                    | 
+2016/03/21 10:07:10 [router.go:828][D] | GET        | /ajax                                    | 453.37µs         | match      | /ajax                                    | 
+2016/03/21 10:07:10 [router.go:828][D] | GET        | /ajax                                    | 609.722µs        | match      | /ajax                                    | 
+2016/03/21 10:07:43 [router.go:828][D] | GET        | /home                                    | 82.316223ms      | match      | /home                                    | 
+2016/03/21 10:07:43 [router.go:828][D] | GET        | /ajax                                    | 980.259µs        | match      | /ajax                                    | 
+2016/03/21 10:07:43 [router.go:828][D] | GET        | /ajax                                    | 913.11µs         | match      | /ajax                                    | 
+2016/03/21 10:07:43 [router.go:828][D] | GET        | /ajax                                    | 194.581µs        | match      | /ajax                                    | 
+2016/03/21 10:09:59 [router.go:828][D] | GET        | /home                                    | 83.84788ms       | match      | /home                                    | 
+2016/03/21 10:09:59 [router.go:828][D] | GET        | /ajax                                    | 1.381184ms       | match      | /ajax                                    | 
+2016/03/21 10:09:59 [router.go:828][D] | GET        | /ajax                                    | 498.461µs        | match      | /ajax                                    | 
+2016/03/21 10:10:33 [router.go:828][D] | GET        | /home                                    | 72.06615ms       | match      | /home                                    | 
+2016/03/21 10:10:34 [router.go:828][D] | GET        | /ajax                                    | 1.407649ms       | match      | /ajax                                    | 
+2016/03/21 10:10:34 [router.go:828][D] | GET        | /ajax                                    | 667.066µs        | match      | /ajax                                    | 
+2016/03/21 10:19:16 [router.go:828][D] | GET        | /home                                    | 78.584869ms      | match      | /home                                    | 
+2016/03/21 10:19:17 [router.go:828][D] | GET        | /ajax                                    | 448.468µs        | match      | /ajax                                    | 
+2016/03/21 10:19:17 [router.go:828][D] | GET        | /ajax                                    | 1.150333ms       | match      | /ajax                                    | 
+2016/03/21 10:19:23 [router.go:828][D] | GET        | /home                                    | 75.803386ms      | match      | /home                                    | 
+2016/03/21 10:19:24 [router.go:828][D] | GET        | /ajax                                    | 1.4748ms         | match      | /ajax                                    | 
+2016/03/21 10:19:25 [router.go:828][D] | GET        | /ajax                                    | 891.054µs        | match      | /ajax                                    | 
+2016/03/21 10:20:12 [router.go:828][D] | GET        | /home                                    | 74.397196ms      | match      | /home                                    | 
+2016/03/21 10:20:12 [router.go:828][D] | GET        | /ajax                                    | 2.32566ms        | match      | /ajax                                    | 
+2016/03/21 10:20:12 [router.go:828][D] | GET        | /ajax                                    | 1.329228ms       | match      | /ajax                                    | 
+2016/03/21 10:20:15 [router.go:828][D] | GET        | /ajax                                    | 315.153µs        | match      | /ajax                                    | 
+2016/03/21 10:30:14 [router.go:828][D] | GET        | /home                                    | 118.246125ms     | match      | /home                                    | 
+2016/03/21 10:30:14 [router.go:828][D] | GET        | /ajax                                    | 1.601743ms       | match      | /ajax                                    | 
+2016/03/21 10:30:15 [router.go:828][D] | GET        | /ajax                                    | 835.671µs        | match      | /ajax                                    | 
+2016/03/21 10:30:17 [router.go:828][D] | GET        | /ajax                                    | 193.111µs        | match      | /ajax                                    | 
+2016/03/21 10:30:43 [router.go:828][D] | GET        | /home                                    | 81.954503ms      | match      | /home                                    | 
+2016/03/21 10:30:44 [router.go:828][D] | GET        | /ajax                                    | 378.38µs         | match      | /ajax                                    | 
+2016/03/21 10:30:44 [router.go:828][D] | GET        | /ajax                                    | 489.64µs         | match      | /ajax                                    | 
+2016/03/21 10:30:44 [router.go:828][D] | GET        | /ajax                                    | 166.644µs        | match      | /ajax                                    | 
+2016/03/21 10:30:57 [router.go:828][D] | POST       | /ajax                                    | 164.401596ms     | match      | /ajax                                    | 
+2016/03/21 10:30:58 [router.go:828][D] | GET        | /ajax                                    | 1.559591ms       | match      | /ajax                                    | 
+2016/03/21 10:30:58 [router.go:828][D] | GET        | /ajax                                    | 1.615955ms       | match      | /ajax                                    | 
+2016/03/21 10:31:00 [router.go:853][C] the request url is  /ajax 
+2016/03/21 10:31:00 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/21 10:31:00 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/21 10:31:00 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/21 10:31:00 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/21 10:31:00 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/21 10:31:00 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/21 10:31:00 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/21 10:31:00 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/21 10:31:00 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/21 10:31:00 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/21 10:31:02 [router.go:828][D] | GET        | /ajax                                    | 693.532µs        | match      | /ajax                                    | 
+2016/03/21 10:31:03 [router.go:853][C] the request url is  /ajax 
+2016/03/21 10:31:03 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/21 10:31:03 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/21 10:31:03 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/21 10:31:03 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/21 10:31:03 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/21 10:31:03 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/21 10:31:03 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/21 10:31:03 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/21 10:31:03 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/21 10:31:03 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/21 10:31:04 [router.go:828][D] | GET        | /ajax                                    | 647.95µs         | match      | /ajax                                    | 
+2016/03/21 10:31:04 [router.go:853][C] the request url is  /ajax 
+2016/03/21 10:31:04 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/21 10:31:04 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/21 10:31:04 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/21 10:31:04 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/21 10:31:04 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/21 10:31:04 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/21 10:31:04 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/21 10:31:04 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/21 10:31:04 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/21 10:31:04 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/21 10:31:06 [router.go:828][D] | GET        | /ajax                                    | 681.77µs         | match      | /ajax                                    | 
+2016/03/21 10:31:06 [router.go:853][C] the request url is  /ajax 
+2016/03/21 10:31:06 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/21 10:31:06 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/21 10:31:06 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/21 10:31:06 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/21 10:31:06 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/21 10:31:06 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/21 10:31:06 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/21 10:31:06 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/21 10:31:06 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/21 10:31:06 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/21 10:31:08 [router.go:828][D] | GET        | /ajax                                    | 645.501µs        | match      | /ajax                                    | 
+2016/03/21 10:31:09 [router.go:853][C] the request url is  /ajax 
+2016/03/21 10:31:09 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/21 10:31:09 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/21 10:31:09 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/21 10:31:09 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/21 10:31:09 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/21 10:31:09 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/21 10:31:09 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/21 10:31:09 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/21 10:31:09 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/21 10:31:09 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/21 10:31:14 [router.go:828][D] | GET        | /ajax                                    | 651.872µs        | match      | /ajax                                    | 
+2016/03/21 10:31:15 [router.go:853][C] the request url is  /ajax 
+2016/03/21 10:31:15 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/21 10:31:15 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/21 10:31:15 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/21 10:31:15 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/21 10:31:15 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/21 10:31:15 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/21 10:31:15 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/21 10:31:15 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/21 10:31:15 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/21 10:31:15 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/21 10:31:51 [router.go:828][D] | GET        | /home                                    | 83.249916ms      | match      | /home                                    | 
+2016/03/21 10:31:51 [router.go:828][D] | GET        | /ajax                                    | 1.556651ms       | match      | /ajax                                    | 
+2016/03/21 10:31:51 [router.go:828][D] | GET        | /ajax                                    | 1.071913ms       | match      | /ajax                                    | 
+2016/03/21 10:31:51 [router.go:828][D] | GET        | /ajax                                    | 224.479µs        | match      | /ajax                                    | 
+2016/03/21 10:31:54 [router.go:853][C] the request url is  /ajax 
+2016/03/21 10:31:54 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/21 10:31:54 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/21 10:31:54 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/21 10:31:54 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/21 10:31:54 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/21 10:31:54 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/21 10:31:54 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/21 10:31:54 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/21 10:31:54 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/21 10:31:54 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/21 10:31:55 [router.go:828][D] | GET        | /ajax                                    | 640.109µs        | match      | /ajax                                    | 
+2016/03/21 10:31:56 [router.go:853][C] the request url is  /ajax 
+2016/03/21 10:31:56 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/21 10:31:56 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/21 10:31:56 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/21 10:31:56 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/21 10:31:56 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/21 10:31:56 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/21 10:31:56 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/21 10:31:56 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/21 10:31:56 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/21 10:31:56 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/21 10:32:31 [router.go:828][D] | GET        | /home                                    | 112.689529ms     | match      | /home                                    | 
+2016/03/21 10:32:31 [router.go:828][D] | GET        | /ajax                                    | 1.302763ms       | match      | /ajax                                    | 
+2016/03/21 10:32:33 [router.go:828][D] | GET        | /ajax                                    | 613.641µs        | match      | /ajax                                    | 
+2016/03/21 10:32:33 [router.go:828][D] | GET        | /ajax                                    | 182.819µs        | match      | /ajax                                    | 
+2016/03/21 10:32:38 [router.go:853][C] the request url is  /ajax 
+2016/03/21 10:32:38 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/21 10:32:38 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/21 10:32:38 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/21 10:32:38 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/21 10:32:38 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/21 10:32:38 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/21 10:32:38 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/21 10:32:38 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/21 10:32:38 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/21 10:32:38 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/21 10:33:19 [router.go:828][D] | GET        | /home                                    | 101.809642ms     | match      | /home                                    | 
+2016/03/21 10:33:19 [router.go:828][D] | GET        | /ajax                                    | 1.347854ms       | match      | /ajax                                    | 
+2016/03/21 10:33:21 [router.go:828][D] | GET        | /ajax                                    | 2.414867ms       | match      | /ajax                                    | 
+2016/03/21 10:33:21 [router.go:828][D] | GET        | /ajax                                    | 136.256µs        | match      | /ajax                                    | 
+2016/03/21 10:33:31 [router.go:853][C] the request url is  /ajax 
+2016/03/21 10:33:31 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/21 10:33:31 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/21 10:33:31 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/21 10:33:31 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/21 10:33:31 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/21 10:33:31 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/21 10:33:31 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/21 10:33:31 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/21 10:33:31 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/21 10:33:31 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/21 10:33:36 [router.go:828][D] | GET        | /ajax                                    | 521.498µs        | match      | /ajax                                    | 
+2016/03/21 10:33:39 [router.go:853][C] the request url is  /ajax 
+2016/03/21 10:33:39 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/21 10:33:39 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/21 10:33:39 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/21 10:33:39 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/21 10:33:39 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/21 10:33:39 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/21 10:33:39 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/21 10:33:39 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/21 10:33:39 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/21 10:33:39 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/21 10:33:42 [router.go:828][D] | GET        | /ajax                                    | 1.071913ms       | match      | /ajax                                    | 
+2016/03/21 10:33:45 [router.go:853][C] the request url is  /ajax 
+2016/03/21 10:33:45 [router.go:854][C] Handler crashed with error runtime error: slice bounds out of range 
+2016/03/21 10:33:45 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:412 
+2016/03/21 10:33:45 [router.go:860][C] /usr/local/go/src/runtime/panic.go:387 
+2016/03/21 10:33:45 [router.go:860][C] /usr/local/go/src/runtime/panic.go:18 
+2016/03/21 10:33:45 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:122 
+2016/03/21 10:33:45 [router.go:860][C] /home/onedream/work/Go/src/easyblog/controllers/ajax.go:21 
+2016/03/21 10:33:45 [router.go:860][C] /home/onedream/work/Go/src/github.com/astaxie/beego/router.go:760 
+2016/03/21 10:33:45 [router.go:860][C] /usr/local/go/src/net/http/server.go:1703 
+2016/03/21 10:33:45 [router.go:860][C] /usr/local/go/src/net/http/server.go:1204 
+2016/03/21 10:33:45 [router.go:860][C] /usr/local/go/src/runtime/asm_386.s:2287 
+2016/03/21 10:33:51 [router.go:828][D] | GET        | /home                                    | 105.928196ms     | match      | /home                                    | 
+2016/03/21 10:33:52 [router.go:828][D] | GET        | /ajax                                    | 567.57µs         | match      | /ajax                                    | 
+2016/03/21 10:33:53 [router.go:828][D] | GET        | /ajax                                    | 790.578µs        | match      | /ajax                                    | 
+2016/03/21 10:33:54 [router.go:828][D] | GET        | /ajax                                    | 351.913µs        | match      | /ajax                                    | 
+2016/03/21 10:34:16 [router.go:828][D] | GET        | /home                                    | 118.53775ms      | match      | /home                                    | 
+2016/03/21 10:34:16 [router.go:828][D] | GET        | /ajax                                    | 1.885528ms       | match      | /ajax                                    | 
+2016/03/21 10:34:17 [router.go:828][D] | GET        | /ajax                                    | 1.040545ms       | match      | /ajax                                    | 
+2016/03/21 10:34:17 [router.go:828][D] | GET        | /ajax                                    | 311.722µs        | match      | /ajax                                    | 
+2016/03/21 10:34:23 [router.go:828][D] | POST       | /ajax                                    | 46.54169ms       | match      | /ajax                                    | 
+2016/03/21 10:34:24 [router.go:828][D] | GET        | /ajax                                    | 955.752µs        | match      | /ajax                                    | 
+2016/03/21 10:34:25 [router.go:828][D] | GET        | /ajax                                    | 1.485092ms       | match      | /ajax                                    | 
+2016/03/21 10:34:28 [router.go:828][D] | GET        | /ajax                                    | 952.32µs         | match      | /ajax                                    | 
+2016/03/21 10:34:31 [router.go:828][D] | GET        | /ajax                                    | 1.327759ms       | match      | /ajax                                    | 
+2016/03/21 10:34:33 [router.go:828][D] | GET        | /ajax                                    | 653.342µs        | match      | /ajax                                    | 
+2016/03/21 10:36:14 [asm_386.s:2287][I] http server Running on :8080
+2016/03/21 10:36:17 [asm_386.s:2287][I] http server Running on :8080
+2016/03/21 10:36:19 [router.go:828][D] | GET        | /home                                    | 100.828401ms     | match      | /home                                    | 
+2016/03/21 10:36:19 [router.go:828][D] | GET        | /ajax                                    | 435.235µs        | match      | /ajax                                    | 
+2016/03/21 10:36:20 [router.go:828][D] | GET        | /ajax                                    | 639.619µs        | match      | /ajax                                    | 
+2016/03/21 10:36:21 [router.go:828][D] | GET        | /ajax                                    | 152.92µs         | match      | /ajax                                    | 
+2016/03/21 10:36:24 [router.go:828][D] | GET        | /ajax                                    | 1.707609ms       | match      | /ajax                                    | 
+2016/03/21 10:36:50 [router.go:828][D] | GET        | /home                                    | 91.109142ms      | match      | /home                                    | 
+2016/03/21 10:36:51 [router.go:828][D] | GET        | /ajax                                    | 1.017997ms       | match      | /ajax                                    | 
+2016/03/21 10:36:51 [router.go:828][D] | GET        | /ajax                                    | 512.676µs        | match      | /ajax                                    | 
+2016/03/21 10:36:51 [router.go:828][D] | GET        | /ajax                                    | 132.335µs        | match      | /ajax                                    | 
+2016/03/21 10:36:54 [router.go:828][D] | GET        | /ajax                                    | 665.105µs        | match      | /ajax                                    | 
+2016/03/21 10:36:55 [router.go:828][D] | GET        | /ajax                                    | 629.325µs        | match      | /ajax                                    | 
+2016/03/21 10:36:57 [router.go:828][D] | GET        | /ajax                                    | 641.09µs         | match      | /ajax                                    | 
+2016/03/21 10:36:58 [router.go:828][D] | GET        | /ajax                                    | 656.284µs        | match      | /ajax                                    | 
+2016/03/21 10:36:59 [router.go:828][D] | GET        | /ajax                                    | 643.05µs         | match      | /ajax                                    | 
+2016/03/21 10:37:00 [router.go:828][D] | GET        | /ajax                                    | 1.340014ms       | match      | /ajax                                    | 
+2016/03/21 10:37:01 [router.go:828][D] | GET        | /ajax                                    | 673.437µs        | match      | /ajax                                    | 
+2016/03/21 10:37:02 [router.go:828][D] | GET        | /ajax                                    | 903.799µs        | match      | /ajax                                    | 
+2016/03/21 10:37:03 [router.go:828][D] | GET        | /ajax                                    | 1.277277ms       | match      | /ajax                                    | 
+2016/03/21 10:37:04 [router.go:828][D] | GET        | /ajax                                    | 987.611µs        | match      | /ajax                                    | 
+2016/03/21 10:37:05 [router.go:828][D] | GET        | /ajax                                    | 644.519µs        | match      | /ajax                                    | 
+2016/03/21 10:37:06 [router.go:828][D] | GET        | /ajax                                    | 716.57µs         | match      | /ajax                                    | 
+2016/03/21 10:37:07 [router.go:828][D] | GET        | /ajax                                    | 735.193µs        | match      | /ajax                                    | 
+2016/03/21 10:37:08 [router.go:828][D] | GET        | /ajax                                    | 589.135µs        | match      | /ajax                                    | 

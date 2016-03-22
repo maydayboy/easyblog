@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>OneDream Blog</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="static/js/extendPagination.js"></script>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+     
+        <div class="row clearfix">
+        <div class="col-md-1 column">
+           <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="nav navbar-nav">
+          <li class="" id="main_head"><a class="navbar-brand" onclick="init_content_div('main_head')">头条</a></li>
+          </ul>
+        </div>
+        </div>
+        <div class="col-md-7 column">
+
+        <div id="navbar" class="collapse navbar-collapse" >
+          <ul class="nav navbar-nav">
+            <li class="" id="project_head"><a onclick="init_content_div('project_head')">项目</a></li>
+            <li class="" id="article_head"><a onclick="init_content_div('article_head')">文章</a></li>
+            <li class="" id="Recommend_head"><a onclick="init_content_div('Recommend_head')">推荐</a></li>
+            <li><a href="http://www.baidu.com">关于我</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-md-2 column" align="center"style="margin-top:10px">
+            <form class="navbar-search pull-left">
+            <input type="text" class="search-query" placeholder="Search">
+            </form>
+        </div>
+ 
+           <div class="col-md-2 column" id="login_div" style="margin-top:12px">
+            <li><a href="/login" style="color:white">登录</a></li>
+           </div>
+           <div class="col-md-1 column" id="user_name_div" style="margin-top:13px">
+            <li><a id="user_name" style="color:white">user</a></li>
+           </div>
+           <div class="col-md-1 column" id="logout_div" style="margin-top:13px">
+            <li><a href="/logout" style="color:white">退出</a></li>
+           </div>
+    </div>
+
+         
+    </div>
+    </nav>
+
+<div class="container">
+  <br>
+  <br>
+      <div class="row clearfix">
+        <div class="col-md-10 column">
+          
+
+          <div class="container"  id="main_div">
+          <div>
+          <h1>main_div</h1>
+          </div>
+          </div>
+
+          <div class="container"  id="project_div">
+          <div>
+          <h1>project_div</h1>
+          </div>
+          </div>
+
+
+          <div class="container"  id="article_div">
+          <div>
+          <h1>article_div</h1>
+          </div>
+          </div>
+
+          <div class="container"  id="Recommend_div">
+          <div>
+          <h1>Recommend_div</h1>
+          </div>
+          </div>
+
+
+        <!-- new article display page-->
+        <div class="modal fade" id="modal-container-68588" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="width:90%;Height:90%;">
+          <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title" id="myModalLabel">
+                标题
+              </h4>
+              <input type="text" name="title" class="form-control"></input>
+
+              <div class="form-group-inline">
+                 <h4 class="modal-title" id="myModalLabel">
+                 所属分类
+                 </h4>
+                <select name="category" class="form-control form-control-medium">
+                <option value=""></option>
+                </select>
+              </div>
+            </div>
+
+            <div class="modal-body">
+                <div class="form-group">
+                <label>文章内容:</label>
+                <textarea name="content" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> 
+               <button type="button" class="btn btn-primary">提交</button>
+               <button type="button" class="btn btn-primary">保存为草稿</button>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <!-- new article category display page-->
+        <div class="modal fade" id="modal-container-68589" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="width:90%;Height:90%;">
+          <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title" id="myModalLabel">
+                分类标题
+              </h4>
+              <input type="text" id="category_title" name="category_title" class="form-control">
+                
+              </input>
+
+            </div>
+
+            <div class="modal-body">
+            <table class="table table-striped" >
+            <thead>
+             <tr>
+                <th>#</th>
+                <th>名称</th>
+                <th>文章数</th>
+                <th>操作</th>
+             </tr>
+            </thead>
+            <tbody id="opbody" align="left">
+            </tbody>
+        </table> 
+            </div>
+            <div id="callBackPager" align="center">
+    
+            </div>
+
+            <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> 
+               <button type="button" onclick="create_category();" class="btn btn-primary">提交</button>
+            </div>
+
+          </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="col-md-2 column">
+        <table height=90 style=border-color:000000;border-left-style:solid;border-width:2px><tr><td valign=top>
+        <div id="OMangement">
+         <h3>O站管理</h3>
+         <ul>   
+         <li ><a href="#modal-container-68588" role="button" class="btn" data-toggle="modal">新文章</a></li>
+         <li ><a href="#modal-container-68589" role="button" class="btn" data-toggle="modal">文章分类</a></li>
+         <li><a>新项目</a></li>
+         <li><a>项目分类</a></li>
+         </ul>
+         </div>
+         ---------------------
+         <div id="topicCategory">
+         <h3>文章分类</h3>
+         <ul>
+         <li>hello1</li>
+         <li>hello2</li>
+         <li>hello3</li>
+         <li>hello4</li>
+         <li>hello5</li>
+         <li>hello6</li>
+         <li>hello7</li>
+         </ul>
+         </div>
+         ---------------------
+        <div id="projectCategory">
+         <h3>项目分类</h3>
+         <ul>
+         <li>hello1</li>
+         <li>hello2</li>
+         <li>hello3</li>
+         <li>hello4</li>
+         <li>hello5</li>
+         <li>hello6</li>
+         <li>hello7</li>
+         </ul>
+         </div>
+         ---------------------
+
+
+        </table>
+        
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+  
+
+      <div>
+      <nav class="navbar navbar-inverse navbar-fixed-bottom" align="center">
+      <div class="container" align="center">
+       </div>
+      </nav>
+      </div>
+ 
+  </body>
+</html>
+
+
+<script type="text/javascript">
+
+main_loop()
+
+
+function main_loop(){
+   update_category()
+   init_display_div()
+   get_base_info()
+   init_content_div("")
+   
+
+}
+
+function get_base_info(){
+   data = $.ajax({
+        url: "/ajax?do=baseinfo",
+        async: false
+    });
+    $("#user_name").empty()
+    $.each(data, function(idx, item) {
+        if (idx == "responseJSON") {
+          if(item[0]=="0"){
+            document.getElementById("login_div").style.display = "";
+            document.getElementById("logout_div").style.display = "none";
+            document.getElementById("user_name_div").style.display = "none";
+
+          }else{
+              document.getElementById("login_div").style.display = "none";
+              document.getElementById("logout_div").style.display = "";
+              document.getElementById("user_name_div").style.display = "";
+              $("#user_name").text(item[1])
+          }
+
+        }
+    })
+}
+
+//Init The Title display div
+function init_display_div(){
+  document.getElementById("login_div").style.display = "none";
+  document.getElementById("logout_div").style.display = "none";
+  document.getElementById("user_name_div").style.display = "none";
+}
+
+//Init The left Content Display div
+function init_content_div(strdiv){
+   $("#project_head").removeClass("active");
+   $("#Recommend_head").removeClass("active");
+   $("#article_head").removeClass("active");
+   $("#main_head").removeClass("active");
+   document.getElementById("main_div").style.display = "none";
+   document.getElementById("project_div").style.display = "none";
+   document.getElementById("article_div").style.display = "none";
+   document.getElementById("Recommend_div").style.display = "none";
+   switch (strdiv){
+    case "project_head":
+    $("#project_head").addClass("active");
+    document.getElementById("project_div").style.display = "";
+    break;
+
+    case "article_head":
+    $("#article_head").addClass("active");
+    document.getElementById("article_div").style.display = "";
+    break;
+
+    case "Recommend_head":
+    $("#Recommend_head").addClass("active");
+    document.getElementById("Recommend_div").style.display = "";
+    break;
+
+    case "main_head":
+    $("#main_head").addClass("active");
+    document.getElementById("main_div").style.display = "";
+    break;
+
+    default:
+    $("#main_head").addClass("active");
+     document.getElementById("main_div").style.display = "";
+   }
+}
+
+
+function create_category(){
+  var category_title_str=document.getElementById("category_title").value
+  
+
+     $.ajax({
+            url: '/ajax?do=createCategory',
+            type: 'POST',
+            dataType: 'json',
+            data: {
+                'categorytitle':category_title_str 
+            },
+            success: function(rs) {
+                //  status "0" 通过，其它失败
+                if (rs.status == "0") {
+                    alert("submit success")
+                    update_category()
+                    return false
+                }
+                if (rs.status=="1"){
+                  alert("请先登录")
+                  return false
+                }
+                
+                if (rs.status=="2"){
+                  alert("submit failed")
+                  return false 
+
+                }
+
+           
+            }
+        });
+  return false
+}
+
+
+function update_category(){
+var vTotalCount=0;
+var vShowCount=3;
+var vLimit=3;
+ datalen = $.ajax({
+        url: "/ajax?do=getcategorylen",
+        async: false
+    });
+    $.each(datalen, function(idx, item) {
+        if (idx == "responseJSON") {
+             vTotalCount=item
+        }
+    })
+    display_category_content(1,vShowCount)
+    $('#callBackPager').extendPagination({
+            totalCount: vTotalCount,
+            showCount:vShowCount,
+            limit:vLimit,
+            callback: function (curr, limit, totalCount) {
+                display_category_content(curr,vShowCount)
+            }
+        });
+}
+
+function display_category_content(cur,vShowCount){
+    data = $.ajax({
+        url: "/ajax?do=getcategory&current="+cur+"&showCount="+vShowCount,
+        async: false
+    });
+    $.each(data, function(idx, item) {
+        if (idx == "responseJSON") {
+            var len=item.length
+            var i;
+            var rowStr="";
+            clear_rows(); 
+            for(i=0;i<len;i++){
+              rowStr="";
+              rowStr+="<tr><th>";
+              rowStr+=item[i]["ID"];
+              rowStr+="</th><th>"
+              rowStr+=item[i]["Title"]
+              rowStr+="</th><th>"
+              rowStr+=item[i]["TopicCount"]
+              rowStr+="</th><th>"
+              rowStr+="<a href=\"/ajax?do=deletecategory&ID="+item[i]["ID"]+"\">删除</a>"
+              rowStr+="</th></tr>"
+              //alert(rowStr)
+              $("#opbody").append(rowStr)
+            }
+        }
+    });
+
+}
+
+function clear_rows(){
+  var tb = document.getElementById('opbody');
+  var rowNum=tb.rows.length;
+  for (i=0;i<rowNum;i++){
+    tb.deleteRow(i);
+      rowNum=rowNum-1;
+        i=i-1;
+    }
+}
+
+</script>
+
+
+
