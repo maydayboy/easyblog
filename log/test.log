@@ -1243,3 +1243,15 @@
 2016/03/21 10:37:06 [router.go:828][D] | GET        | /ajax                                    | 716.57µs         | match      | /ajax                                    | 
 2016/03/21 10:37:07 [router.go:828][D] | GET        | /ajax                                    | 735.193µs        | match      | /ajax                                    | 
 2016/03/21 10:37:08 [router.go:828][D] | GET        | /ajax                                    | 589.135µs        | match      | /ajax                                    | 
+2016/03/23 10:00:51 [asm_386.s:2287][I] http server Running on :8080
+2016/03/23 10:01:12 [router.go:828][D] | GET        | /                                        | 92.585391ms      | match      | /                                        | 
+2016/03/23 10:01:12 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/03/23 10:01:13 [router.go:828][D] | GET        | /ajax                                    | 789.611µs        | match      | /ajax                                    | 
+2016/03/23 10:01:13 [router.go:828][D] | GET        | /ajax                                    | 1.183191ms       | match      | /ajax                                    | 
+2016/03/23 10:01:13 [router.go:828][D] | GET        | /ajax                                    | 104.89µs         | match      | /ajax                                    | 
+2016/03/23 10:01:34 [router.go:828][D] | GET        | /ajax                                    | 607.77µs         | match      | /ajax                                    | 
+2016/03/23 10:01:35 [router.go:828][D] | GET        | /ajax                                    | 642.569µs        | match      | /ajax                                    | 
+2016/03/23 10:01:38 [router.go:828][D] | GET        | /ajax                                    | 608.75µs         | match      | /ajax                                    | 
+2016/03/23 10:01:39 [router.go:828][D] | GET        | /ajax                                    | 1.878695ms       | match      | /ajax                                    | 
+2016/03/23 10:15:44 [asm_386.s:2287][I] http server Running on :8080
+2016/03/23 11:17:31 [asm_386.s:2287][I] http server Running on :8080

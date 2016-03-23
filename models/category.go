@@ -10,8 +10,8 @@ type Category struct {
 	ID          int64     `orm:"auto"`
 	Title       string    `orm:null`
 	ViewCount   int64     `orm:"index;null"`
-	TopicCount  int64     `orm:"index:null"`
-	CreatedTime time.Time `orm:"index:null"`
+	TopicCount  int64     `orm:"index;null"`
+	CreatedTime time.Time `orm:"index;null"`
 }
 
 func GetCategoryCount() (int64, error) {
@@ -19,7 +19,6 @@ func GetCategoryCount() (int64, error) {
 	qs := o.QueryTable("category")
 	count, err := qs.Count()
 	return count, err
-
 }
 func GetAllCategory() ([]*Category, error) {
 	o := orm.NewOrm()
